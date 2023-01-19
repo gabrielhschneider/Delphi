@@ -1,0 +1,116 @@
+object Form1: TForm1
+  Left = 0
+  Top = 0
+  Caption = 'Form1'
+  ClientHeight = 480
+  ClientWidth = 309
+  Fill.Kind = Solid
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  DesignerMasterStyle = 0
+  object ToolBar1: TToolBar
+    Size.Width = 309.000000000000000000
+    Size.Height = 25.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 1
+    object Layout1: TLayout
+      Align = Top
+      Size.Width = 309.000000000000000000
+      Size.Height = 40.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 1
+      object Rectangle1: TRectangle
+        Align = Client
+        Fill.Color = xFF5B7FDF
+        Size.Width = 309.000000000000000000
+        Size.Height = 40.000000000000000000
+        Size.PlatformDefault = False
+        object Label1: TLabel
+          Align = Left
+          StyledSettings = [Family]
+          Margins.Left = 10.000000000000000000
+          Position.X = 10.000000000000000000
+          Size.Width = 120.000000000000000000
+          Size.Height = 40.000000000000000000
+          Size.PlatformDefault = False
+          TextSettings.Font.Size = 16.000000000000000000
+          TextSettings.Font.StyleExt = {00060000000000000004000000}
+          TextSettings.FontColor = claWhite
+          Text = 'Calculo de IMC'
+          TabOrder = 0
+        end
+      end
+    end
+  end
+  object Label2: TLabel
+    Align = Top
+    StyledSettings = [Family, Size]
+    Margins.Left = 10.000000000000000000
+    Margins.Top = 20.000000000000000000
+    Position.X = 10.000000000000000000
+    Position.Y = 45.000000000000000000
+    Size.Width = 299.000000000000000000
+    Size.Height = 17.000000000000000000
+    Size.PlatformDefault = False
+    TextSettings.Font.StyleExt = {00060000000000000004000000}
+    TextSettings.FontColor = claDimgray
+    Text = 'Altura (cm)'
+    TabOrder = 2
+  end
+  object edtAltura: TEdit
+    Touch.InteractiveGestures = [LongTap, DoubleTap]
+    Align = Top
+    TabOrder = 3
+    Position.X = 10.000000000000000000
+    Position.Y = 62.000000000000000000
+    Margins.Left = 10.000000000000000000
+    Margins.Right = 10.000000000000000000
+    Size.Width = 289.000000000000000000
+    Size.Height = 22.000000000000000000
+    Size.PlatformDefault = False
+  end
+  object Label3: TLabel
+    Align = Top
+    StyledSettings = [Family, Size]
+    Margins.Left = 10.000000000000000000
+    Margins.Top = 30.000000000000000000
+    Position.X = 10.000000000000000000
+    Position.Y = 114.000000000000000000
+    Size.Width = 299.000000000000000000
+    Size.Height = 17.000000000000000000
+    Size.PlatformDefault = False
+    TextSettings.Font.StyleExt = {00060000000000000004000000}
+    TextSettings.FontColor = claDimgray
+    Text = 'Peso (kg)'
+    TabOrder = 4
+  end
+  object edtPeso: TEdit
+    Touch.InteractiveGestures = [LongTap, DoubleTap]
+    Align = Top
+    TabOrder = 5
+    Position.X = 10.000000000000000000
+    Position.Y = 131.000000000000000000
+    Margins.Left = 10.000000000000000000
+    Margins.Right = 10.000000000000000000
+    Size.Width = 289.000000000000000000
+    Size.Height = 22.000000000000000000
+    Size.PlatformDefault = False
+  end
+  object lblPesoIdeal: TLabel
+    Align = Top
+    StyledSettings = [Family, Size, FontColor]
+    Margins.Left = 10.000000000000000000
+    Margins.Top = 40.000000000000000000
+    Margins.Right = 10.000000000000000000
+    Position.X = 10.000000000000000000
+    Position.Y = 193.000000000000000000
+    Size.Width = 289.000000000000000000
+    Size.Height = 17.000000000000000000
+    Size.PlatformDefault = False
+    TextSettings.Font.StyleExt = {00060000000000000004000000}
+    TextSettings.HorzAlign = Center
+    Text = 'lblPesoIdeal'
+    TabOrder = 6
+  end
+end

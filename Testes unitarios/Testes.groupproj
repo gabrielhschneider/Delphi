@@ -1,0 +1,60 @@
+﻿<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+    <PropertyGroup>
+        <ProjectGuid>{5241BD95-775A-47AA-ABFC-65B48DFFAE33}</ProjectGuid>
+    </PropertyGroup>
+    <ItemGroup>
+        <Projects Include="Calculadora\Calculadora.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="Produto\TesteProduto.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="..\Projeto Mobile\Tela de exercicio\ProjetoTelas.dproj">
+            <Dependencies/>
+        </Projects>
+    </ItemGroup>
+    <ProjectExtensions>
+        <Borland.Personality>Default.Personality.12</Borland.Personality>
+        <Borland.ProjectType/>
+        <BorlandProject>
+            <Default.Personality/>
+        </BorlandProject>
+    </ProjectExtensions>
+    <Target Name="Calculadora">
+        <MSBuild Projects="Calculadora\Calculadora.dproj"/>
+    </Target>
+    <Target Name="Calculadora:Clean">
+        <MSBuild Projects="Calculadora\Calculadora.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="Calculadora:Make">
+        <MSBuild Projects="Calculadora\Calculadora.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="TesteProduto">
+        <MSBuild Projects="Produto\TesteProduto.dproj"/>
+    </Target>
+    <Target Name="TesteProduto:Clean">
+        <MSBuild Projects="Produto\TesteProduto.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="TesteProduto:Make">
+        <MSBuild Projects="Produto\TesteProduto.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="ProjetoTelas">
+        <MSBuild Projects="..\Projeto Mobile\Tela de exercicio\ProjetoTelas.dproj"/>
+    </Target>
+    <Target Name="ProjetoTelas:Clean">
+        <MSBuild Projects="..\Projeto Mobile\Tela de exercicio\ProjetoTelas.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="ProjetoTelas:Make">
+        <MSBuild Projects="..\Projeto Mobile\Tela de exercicio\ProjetoTelas.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="Build">
+        <CallTarget Targets="Calculadora;TesteProduto;ProjetoTelas"/>
+    </Target>
+    <Target Name="Clean">
+        <CallTarget Targets="Calculadora:Clean;TesteProduto:Clean;ProjetoTelas:Clean"/>
+    </Target>
+    <Target Name="Make">
+        <CallTarget Targets="Calculadora:Make;TesteProduto:Make;ProjetoTelas:Make"/>
+    </Target>
+    <Import Project="$(BDS)\Bin\CodeGear.Group.Targets" Condition="Exists('$(BDS)\Bin\CodeGear.Group.Targets')"/>
+</Project>

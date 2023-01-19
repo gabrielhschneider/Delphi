@@ -1,0 +1,37 @@
+unit ufrmPrincipal;
+
+interface
+
+uses
+  Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, Vcl.Graphics,
+  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Vcl.StdCtrls;
+
+type
+  TfrmPrincipal = class(TForm)
+    Label1: TLabel;
+    edtNomePC: TEdit;
+    edtNomeUser: TEdit;
+    Label2: TLabel;
+    edtDirSistema: TEdit;
+    Label3: TLabel;
+    edtDirWindows: TEdit;
+    Label4: TLabel;
+    edtDirTemp: TEdit;
+    Label5: TLabel;
+    edtVersaoWindows: TEdit;
+    Label6: TLabel;
+    btnInformacoes: TButton;
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  frmPrincipal: TfrmPrincipal;
+
+implementation
+
+{$R *.dfm}
+
+end.

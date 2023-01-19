@@ -1,0 +1,63 @@
+unit ufrmPrincipal;
+
+interface
+
+uses
+  Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, Vcl.Graphics,
+  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Vcl.StdCtrls;
+
+type
+  TfrmPrincipal = class(TForm)
+    Label1: TLabel;
+    Label2: TLabel;
+    Label3: TLabel;
+    btnGravar: TButton;
+    btnLer: TButton;
+    edtNome: TEdit;
+    edtPrimeiraNota: TEdit;
+    edtSegundaNota: TEdit;
+    mmDiario: TMemo;
+    procedure FormShow(Sender: TObject);
+    procedure edtPrimeiraNotaKeyPress(Sender: TObject; var Key: Char);
+  private
+    { Private declarations }
+    FArq: TextFile;
+  public
+    { Public declarations }
+  end;
+
+var
+  frmPrincipal: TfrmPrincipal;
+
+implementation
+
+{$R *.dfm}
+
+procedure TfrmPrincipal.edtPrimeiraNotaKeyPress(Sender: TObject; var Key: Char);
+begin
+  if (Key in ['.', ',']) then
+    if Pos(',', (Sender as TEdit).Text) = 0 then
+      Key := ','
+    else
+      Key := #7
+  else if not(Key in ['0'..'9', #8]) then
+    Key := #7;
+end;
+
+procedure TfrmPrincipal.FormShow(Sender: TObject);
+begin
+  AssignFile(FArq, 'diario.txt');
+  {$I-}
+  Reset(FArq);
+
+  if IOResult <> 0 then
+    Rewrite(FArq) //Arquivo não existe e será criado
+  else
+  begin
+    CloseFile(FArq);
+    Append(FArq); //O Arquivo existe e será aberto para saídas adicionais
+  end;
+  {$I+}
+end;
+
+end.

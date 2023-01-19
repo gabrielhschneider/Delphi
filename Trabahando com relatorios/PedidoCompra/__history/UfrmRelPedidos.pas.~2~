@@ -1,0 +1,57 @@
+unit UfrmRelPedidos;
+
+interface
+
+uses
+  Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, Vcl.Graphics,
+  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Vcl.DBCtrls, Vcl.StdCtrls,
+  FireDAC.Stan.Intf, FireDAC.Stan.Option, FireDAC.Stan.Param,
+  FireDAC.Stan.Error, FireDAC.DatS, FireDAC.Phys.Intf, FireDAC.DApt.Intf,
+  FireDAC.Stan.Async, FireDAC.DApt, Data.DB, FireDAC.Comp.DataSet,
+  FireDAC.Comp.Client, UdmPedidos;
+
+type
+  TfrmRelPedidos = class(TForm)
+    GroupBox1: TGroupBox;
+    label1: TLabel;
+    btnExportar: TButton;
+    btnVisuaizar: TButton;
+    DBLookupComprador: TDBLookupComboBox;
+    DBLookupFornecedor: TDBLookupComboBox;
+    Label2: TLabel;
+    dtsLookUpComprador: TDataSource;
+    LookUpComprador: TFDTable;
+    dtsLookUpFornecedor: TDataSource;
+    LookUpFornecedor: TFDTable;
+    procedure FormCreate(Sender: TObject);
+    procedure FormClose(Sender: TObject; var Action: TCloseAction);
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  frmRelPedidos: TfrmRelPedidos;
+
+implementation
+
+{$R *.dfm}
+
+procedure TfrmRelPedidos.FormClose(Sender: TObject; var Action: TCloseAction);
+begin
+  Action := caFree;
+  {QryPedido.Close;
+  QryItemCompra.Close;}
+
+  LookUpComprador.Close;
+  LookUpFornecedor.Close;
+end;
+
+procedure TfrmRelPedidos.FormCreate(Sender: TObject);
+begin
+  LookUpComprador.Open;
+  LookUpFornecedor.Open;
+end;
+
+end.

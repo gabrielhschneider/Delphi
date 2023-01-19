@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2022/12/16 20:14:40.000.824,=C:\Users\mysql\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2022/12/16 20:26:35.000.407,C:\Users\mysql\Documents\Embarcadero\Studio\Projects\Unit1.fmx=C:\Users\mysql\Desktop\Projeto Mobile\App Calculo IMC\ufrmPrincipal.fmx</Transaction>
+    <Transaction>2022/12/16 20:26:35.000.407,C:\Users\mysql\Documents\Embarcadero\Studio\Projects\Unit1.pas=C:\Users\mysql\Desktop\Projeto Mobile\App Calculo IMC\ufrmPrincipal.pas</Transaction>
+    <Transaction>2022/12/16 20:26:43.000.706,C:\Users\mysql\Documents\Embarcadero\Studio\Projects\Project1.dproj=C:\Users\mysql\Desktop\Projeto Mobile\App Calculo IMC\AppIMC.dproj</Transaction>
+  </Transactions>
+	<ActiveMobileDevice>
+		<NoProfile iOSSimulator="iPhone5"/>
+	</ActiveMobileDevice>
+</BorlandProject>

@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2023/01/12 18:05:16.000.228,=C:\Users\mysql\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2023/01/12 18:05:59.000.038,C:\Users\mysql\Documents\Embarcadero\Studio\Projects\Unit1.dfm=C:\Users\mysql\Desktop\Relatorios no Dephi\Atividade de relatorios\UfrmMainMenu.dfm</Transaction>
+    <Transaction>2023/01/12 18:05:59.000.038,C:\Users\mysql\Documents\Embarcadero\Studio\Projects\Unit1.pas=C:\Users\mysql\Desktop\Relatorios no Dephi\Atividade de relatorios\UfrmMainMenu.pas</Transaction>
+    <Transaction>2023/01/12 18:06:30.000.522,=C:\Users\mysql\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2023/01/12 18:07:31.000.944,C:\Users\mysql\Documents\Embarcadero\Studio\Projects\Unit1.dfm=C:\Users\mysql\Desktop\Relatorios no Dephi\Atividade de relatorios\UdmSekila.dfm</Transaction>
+    <Transaction>2023/01/12 18:07:31.000.944,C:\Users\mysql\Documents\Embarcadero\Studio\Projects\Unit1.pas=C:\Users\mysql\Desktop\Relatorios no Dephi\Atividade de relatorios\UdmSekila.pas</Transaction>
+    <Transaction>2023/01/12 18:13:34.000.687,=C:\Users\mysql\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2023/01/12 18:14:17.000.328,C:\Users\mysql\Documents\Embarcadero\Studio\Projects\Unit1.pas=C:\Users\mysql\Desktop\Relatorios no Dephi\Atividade de relatorios\UfrmRelatorioAtores.pas</Transaction>
+    <Transaction>2023/01/12 18:14:17.000.328,C:\Users\mysql\Documents\Embarcadero\Studio\Projects\Unit1.dfm=C:\Users\mysql\Desktop\Relatorios no Dephi\Atividade de relatorios\UfrmRelatorioAtores.dfm</Transaction>
+    <Transaction>2023/01/12 18:14:57.000.288,=C:\Users\mysql\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2023/01/12 18:15:16.000.819,C:\Users\mysql\Documents\Embarcadero\Studio\Projects\Unit1.pas=C:\Users\mysql\Desktop\Relatorios no Dephi\Atividade de relatorios\UdmSekila.pas</Transaction>
+    <Transaction>2023/01/12 18:15:16.000.819,C:\Users\mysql\Documents\Embarcadero\Studio\Projects\Unit1.dfm=C:\Users\mysql\Desktop\Relatorios no Dephi\Atividade de relatorios\UdmSekila.dfm</Transaction>
+    <Transaction>2023/01/12 18:35:05.000.134,C:\Users\mysql\Documents\Embarcadero\Studio\Projects\Project2.dproj=C:\Users\mysql\Desktop\Relatorios no Dephi\Atividade de relatorios\RelatorioSekila.dproj</Transaction>
+    <Transaction>2023/01/12 18:39:01.000.579,=C:\Users\mysql\Desktop\Relatorios no Dephi\Atividade de relatorios\Unit1.pas</Transaction>
+    <Transaction>2023/01/12 18:39:24.000.160,C:\Users\mysql\Desktop\Relatorios no Dephi\Atividade de relatorios\Unit1.dfm=C:\Users\mysql\Desktop\Relatorios no Dephi\Atividade de relatorios\UfrmRelatorioCidades.dfm</Transaction>
+    <Transaction>2023/01/12 18:39:24.000.160,C:\Users\mysql\Desktop\Relatorios no Dephi\Atividade de relatorios\Unit1.pas=C:\Users\mysql\Desktop\Relatorios no Dephi\Atividade de relatorios\UfrmRelatorioCidades.pas</Transaction>
+    <Transaction>2023/01/12 18:58:53.000.498,=C:\Users\mysql\Desktop\Relatorios no Dephi\Atividade de relatorios\Unit1.pas</Transaction>
+    <Transaction>2023/01/12 18:59:06.000.944,C:\Users\mysql\Desktop\Relatorios no Dephi\Atividade de relatorios\Unit1.pas=C:\Users\mysql\Desktop\Relatorios no Dephi\Atividade de relatorios\UfrmRelatorioFilmes.pas</Transaction>
+    <Transaction>2023/01/12 18:59:06.000.944,C:\Users\mysql\Desktop\Relatorios no Dephi\Atividade de relatorios\Unit1.dfm=C:\Users\mysql\Desktop\Relatorios no Dephi\Atividade de relatorios\UfrmRelatorioFilmes.dfm</Transaction>
+  </Transactions>
+</BorlandProject>

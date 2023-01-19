@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2023/01/18 18:07:31.000.400,=C:\Users\mysql\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2023/01/18 18:07:49.000.090,C:\Users\mysql\Desktop\Utilizando Generics\Atividade utilizando Queue\UfrmPrincipal.pas=C:\Users\mysql\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2023/01/18 18:07:49.000.090,C:\Users\mysql\Desktop\Utilizando Generics\Atividade utilizando Queue\UfrmPrincipal.dfm=C:\Users\mysql\Documents\Embarcadero\Studio\Projects\Unit1.dfm</Transaction>
+    <Transaction>2023/01/18 18:07:59.000.319,C:\Users\mysql\Desktop\Utilizando Generics\Atividade utilizando Queue\Controle.dproj=C:\Users\mysql\Documents\Embarcadero\Studio\Projects\Project2.dproj</Transaction>
+    <Transaction>2023/01/18 19:38:19.219,=C:\Users\mysql\Desktop\Utilizando Generics\Atividade utilizando Queue\Unit1.pas</Transaction>
+    <Transaction>2023/01/18 19:38:37.820,C:\Users\mysql\Desktop\Utilizando Generics\Atividade utilizando Queue\UPaciente.pas=C:\Users\mysql\Desktop\Utilizando Generics\Atividade utilizando Queue\Unit1.pas</Transaction>
+    <Transaction>2023/01/18 19:45:13.582,=C:\Users\mysql\Desktop\Utilizando Generics\Atividade utilizando Queue\Unit1.pas</Transaction>
+    <Transaction>2023/01/18 19:59:31.129,C:\Users\mysql\Desktop\Utilizando Generics\Atividade utilizando Queue\UControaldora.pas=C:\Users\mysql\Desktop\Utilizando Generics\Atividade utilizando Queue\Unit1.pas</Transaction>
+    <Transaction>2023/01/18 20:11:24.021,C:\Users\mysql\Desktop\Utilizando Generics\Atividade utilizando Queue\UControladora.pas=C:\Users\mysql\Desktop\Utilizando Generics\Atividade utilizando Queue\UControaldora.pas</Transaction>
+  </Transactions>  <ProjectSortOrder AutoSort="0" SortType="0">
+    <File Path="UControladora.pas"/>
+    <File Path="UfrmPrincipal.pas"/>
+    <File Path="UfrmPrincipal.dfm"/>
+    <File Path="UPaciente.pas"/>
+  </ProjectSortOrder>
+</BorlandProject>

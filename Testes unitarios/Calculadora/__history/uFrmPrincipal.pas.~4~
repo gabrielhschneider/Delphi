@@ -1,0 +1,50 @@
+unit uFrmPrincipal;
+
+interface
+
+uses
+  Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, Vcl.Graphics,
+  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Vcl.StdCtrls;
+
+type
+  TfrmCalculadora = class(TForm)
+    Label1: TLabel;
+    Label2: TLabel;
+    Label3: TLabel;
+    edtNum1: TEdit;
+    edtNum2: TEdit;
+    cmbOperacao: TComboBox;
+    lblResultado: TLabel;
+    btnCalcular: TButton;
+    procedure btnCalcularClick(Sender: TObject);
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  frmCalculadora: TfrmCalculadora;
+
+implementation
+
+uses uCalculadora;
+
+{$R *.dfm}
+
+procedure TfrmCalculadora.btnCalcularClick(Sender: TObject);
+var
+  xNum1, xNum2 : Double;
+begin
+  xNum1 := StrToFloat(edtNum1.Text);
+  xNum2 := StrToFloat(edtNum1.Text);
+
+  case TEnum(cmbOperacao.Itemindex) of
+    opSomar : lblResultado := FloatToStr(TCalculadora.Somar(xNum1, xNum2));
+    opSubtrair : lblResultado := FloatToStr(TCalculadora.Subtrair(xNum1, xNum2));
+    opMultiplicar : lblResultado := FloatToStr(TCalculadora.Multiplicar(xNum1, xNum2));
+    opDividir : lblResultado := FloatToStr(TCalculadora.Dividir(xNum1, xNum2));
+  end;
+end;
+
+end.

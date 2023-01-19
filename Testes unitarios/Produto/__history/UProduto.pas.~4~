@@ -1,0 +1,40 @@
+unit UProduto;
+
+interface
+
+type
+  TProduto = Class
+    aNomeProduto   : String;
+    aQuantidade    : Integer;
+    aPrecoUnitario : Double;
+    aValorTotal    : Double;
+
+  public
+    function RetornarValorTotal(): Double;
+  End;
+
+implementation
+
+{ TProduto }
+
+function TProduto.RetornarValorTotal(): Double;
+begin
+  aValorTotal := aQuantidade * aPrecoUnitario;
+
+  if aQuantidade <= 10 then
+  begin
+    Result := aValorTotal
+  end
+
+  else  if (aQuantidade > 10) and (50 <= aQuantidade) then
+  begin
+    Result := (aValorTotal - (aValorTotal * 0.10))
+  end
+
+  else if aQuantidade > 50 then
+  begin
+    Result := (aValorTotal - (aValorTotal * 0.25));
+  end;
+end;
+
+end.

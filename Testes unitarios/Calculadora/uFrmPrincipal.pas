@@ -1,0 +1,59 @@
+unit uFrmPrincipal;
+
+interface
+
+uses
+  Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, Vcl.Graphics,
+  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Vcl.StdCtrls;
+
+type
+  TfrmCalculadora = class(TForm)
+    Label1: TLabel;
+    Label2: TLabel;
+    Label3: TLabel;
+    edtNum1: TEdit;
+    edtNum2: TEdit;
+    cmbOperacao: TComboBox;
+    lblResultado: TLabel;
+    btnCalcular: TButton;
+    procedure btnCalcularClick(Sender: TObject);
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  frmCalculadora: TfrmCalculadora;
+
+implementation
+
+uses uCalculadora;
+
+{$R *.dfm}
+
+procedure TfrmCalculadora.btnCalcularClick(Sender: TObject);
+var
+  xNum1, xNum2 : Double;
+  xCalculadora : TCalculadora;
+begin
+  xNum1 := StrToFloat(edtNum1.Text);
+  xNum2 := StrToFloat(edtNum2.Text);
+  xCalculadora := TCalculadora.Create();
+
+  try
+    case TEnumOperacao(cmbOperacao.Itemindex) of
+    opSomar :
+      lblResultado.Caption := FloatToStr(xCalculadora.Somar(xNum1, xNum2));
+      opSubtrair : lblResultado.Caption := FloatToStr(xCalculadora.Subtrair(xNum1, xNum2));
+      opMultiplicar : lblResultado.Caption := FloatToStr(xCalculadora.Multiplicar(xNum1, xNum2));
+      opDividir : lblResultado.Caption := FloatToStr(xCalculadora.Dividir(xNum1, xNum2));
+    end;
+  finally
+    FreeAndNil(xCalculadora);
+  end;
+
+
+end;
+
+end.

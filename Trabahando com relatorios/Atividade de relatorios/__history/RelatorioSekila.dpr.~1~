@@ -1,0 +1,18 @@
+program RelatorioSekila;
+
+uses
+  Vcl.Forms,
+  UfrmMainMenu in 'UfrmMainMenu.pas' {frmMainMenu},
+  UfrmRelatorioAtores in 'UfrmRelatorioAtores.pas' {frmRelatorioAtores},
+  UdmSekila in 'UdmSekila.pas' {DataModule1: TDataModule};
+
+{$R *.res}
+
+begin
+  Application.Initialize;
+  Application.MainFormOnTaskbar := True;
+  Application.CreateForm(TfrmMainMenu, frmMainMenu);
+  Application.CreateForm(TfrmRelatorioAtores, frmRelatorioAtores);
+  Application.CreateForm(TDataModule1, DataModule1);
+  Application.Run;
+end.

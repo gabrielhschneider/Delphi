@@ -1,0 +1,50 @@
+unit UControladora;
+
+interface
+
+uses
+  Generics.Collections, UPaciente, SysUtils;
+
+type
+  TControladora = class
+    private
+     FFila: TQueue<TPaciente>;
+
+  public
+    constructor Create;
+    Destructor Destroy; Override;
+    procedure Adicionar_Paciente(aPaciente: TPaciente);
+    function Proximo: Tpaciente;
+
+  end;
+
+
+
+implementation
+
+{ TControladora }
+
+constructor TControladora.Create;
+begin
+  FFila := TQueue<TPaciente>.Create;
+end;
+
+destructor TControladora.Destroy;
+begin
+  FreeAndNil(FFila);
+  inherited;
+end;
+
+function TControladora.Proximo: TPaciente;
+begin
+  Result := FFila.Dequeue;
+end;
+
+procedure TControladora.Adicionar_Paciente(aPaciente: TPaciente);
+begin
+  FFila.Enqueue(aPaciente);
+end;
+
+
+
+end.

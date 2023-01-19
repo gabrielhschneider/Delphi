@@ -1,0 +1,49 @@
+unit UProduto;
+
+interface
+
+type
+  TProduto = Class
+    private
+      FNomeProduto   : String;
+      FQuantidade    : Integer;
+      FPrecoUnitario : Double;
+      FValorTotal    : Double;
+
+    public
+      property NomeProduto    :String read FNomeProduto   write FNomeProduto;
+      property Quantidade    :Integer read FQuantidade    write FQuantidade;
+      property PrecoUnitario :Double  read FPrecoUnitario write FPrecoUnitario;
+      property ValorTotal    :Double  read FValorTotal    write FValorTotal;
+      function RetornarValorTotal(): Double;
+ End;
+
+implementation
+
+{ TProduto }
+
+function TProduto.RetornarValorTotal(): Double;
+begin
+  //Calculando valor Total sem Descontos
+  ValorTotal := Quantidade * PrecoUnitario;
+
+  //Calculando Desconto
+  if Quantidade <= 10 then
+  begin
+    Result := ValorTotal
+  end
+
+  //10% de Desconto
+  else  if (Quantidade > 10) and (Quantidade <= 50) then
+  begin
+    Result := (ValorTotal - (ValorTotal * 0.10))
+  end
+
+  //25% de Desconto
+  else if Quantidade > 50 then
+  begin
+    Result := (ValorTotal - (ValorTotal * 0.25));
+  end;
+end;
+
+end.

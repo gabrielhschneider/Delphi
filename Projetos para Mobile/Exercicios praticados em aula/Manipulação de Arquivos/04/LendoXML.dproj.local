@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2022/10/19 20:55:40.000.242,=C:\Users\achenrique\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2022/10/19 20:56:21.000.889,=C:\Users\achenrique\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2022/10/19 21:00:06.000.571,=C:\Users\achenrique\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2022/12/06 18:25:38.000.047,=C:\Users\achenrique\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2022/12/06 19:34:54.000.007,=C:\Users\achenrique\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2022/12/06 19:39:03.000.275,C:\Users\achenrique\Documents\Embarcadero\Studio\Projects\Unit1.dfm=D:\FURB\Aulas\Módulo 05 - Delphi Avançado\Exercicios\Manipulação de Arquivos\04\uFrmPrincipal.dfm</Transaction>
+    <Transaction>2022/12/06 19:39:03.000.275,C:\Users\achenrique\Documents\Embarcadero\Studio\Projects\Unit1.pas=D:\FURB\Aulas\Módulo 05 - Delphi Avançado\Exercicios\Manipulação de Arquivos\04\uFrmPrincipal.pas</Transaction>
+    <Transaction>2022/12/06 19:39:09.000.783,C:\Users\achenrique\Documents\Embarcadero\Studio\Projects\Project1.dproj=D:\FURB\Aulas\Módulo 05 - Delphi Avançado\Exercicios\Manipulação de Arquivos\04\LendoXML.dproj</Transaction>
+  </Transactions>
+	<ActiveMobileDevice>
+		<NoProfile iOSSimulator="iPhone5"/>
+	</ActiveMobileDevice>
+</BorlandProject>

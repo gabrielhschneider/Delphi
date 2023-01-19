@@ -1,0 +1,3 @@
+Armando|5|10|
+Nathan|10|10|
+Carlos Felipe|9|10|

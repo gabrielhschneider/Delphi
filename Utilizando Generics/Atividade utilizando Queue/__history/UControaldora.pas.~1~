@@ -1,0 +1,35 @@
+unit UControaldora;
+
+interface
+
+uses
+  Generics.Collections, UPaciente;
+
+type
+  TControladora = class
+  public
+    class function Adicionar_Paciente(aPessoa: TPaciente): String;
+    class function Proximo: TPaciente;
+  private
+      FFila: TQueue<String>;
+  end;
+
+
+
+implementation
+
+{ TControladora }
+
+class function TControladora.Proximo: TPaciente;
+begin
+  Result := FFila.Dequeue;
+end;
+
+class function TControladora.Adicionar_Paciente(aPessoa: TPaciente): String;
+begin
+  FFila.Enqueue(aPessoa);
+end;
+
+
+
+end.

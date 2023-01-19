@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2022/09/04 19:17:49.000.148,=C:\Users\kikob\Documents\Embarcadero\Studio\Projects\Unit6.pas</Transaction>
+    <Transaction>2022/10/29 17:50:42.000.547,=C:\Users\kikob\Documents\Embarcadero\Studio\Projects\Unit6.pas</Transaction>
+    <Transaction>2022/10/29 17:51:35.000.099,E:\FURB\Aulas\Módulo 04 - Banco de Dados\PedidoCompra\UfrmPrincipal.dfm=C:\Users\kikob\Documents\Embarcadero\Studio\Projects\Unit6.dfm</Transaction>
+    <Transaction>2022/10/29 17:51:35.000.099,E:\FURB\Aulas\Módulo 04 - Banco de Dados\PedidoCompra\UfrmPrincipal.pas=C:\Users\kikob\Documents\Embarcadero\Studio\Projects\Unit6.pas</Transaction>
+    <Transaction>2022/10/29 17:51:40.000.039,E:\FURB\Aulas\Módulo 04 - Banco de Dados\PedidoCompra\Pedido.dproj=C:\Users\kikob\Documents\Embarcadero\Studio\Projects\Project5.dproj</Transaction>
+    <Transaction>2022/10/29 19:18:49.000.984,=E:\FURB\Aulas\Módulo 04 - Banco de Dados\PedidoCompra\Unit1.pas</Transaction>
+    <Transaction>2022/10/29 19:18:58.000.091,E:\FURB\Aulas\Módulo 04 - Banco de Dados\PedidoCompra\UfrmProdutos.dfm=E:\FURB\Aulas\Módulo 04 - Banco de Dados\PedidoCompra\Unit1.dfm</Transaction>
+    <Transaction>2022/10/29 19:18:58.000.091,E:\FURB\Aulas\Módulo 04 - Banco de Dados\PedidoCompra\UfrmProdutos.pas=E:\FURB\Aulas\Módulo 04 - Banco de Dados\PedidoCompra\Unit1.pas</Transaction>
+    <Transaction>2022/10/29 19:19:30.000.376,=E:\FURB\Aulas\Módulo 04 - Banco de Dados\PedidoCompra\Unit1.pas</Transaction>
+    <Transaction>2022/10/29 19:19:49.000.760,E:\FURB\Aulas\Módulo 04 - Banco de Dados\PedidoCompra\UdmPedidos.dfm=E:\FURB\Aulas\Módulo 04 - Banco de Dados\PedidoCompra\Unit1.dfm</Transaction>
+    <Transaction>2022/10/29 19:19:49.000.760,E:\FURB\Aulas\Módulo 04 - Banco de Dados\PedidoCompra\UdmPedidos.pas=E:\FURB\Aulas\Módulo 04 - Banco de Dados\PedidoCompra\Unit1.pas</Transaction>
+    <Transaction>2022/10/29 19:33:06.000.454,E:\FURB\Aulas\Módulo 04 - Banco de Dados\PedidoCompra\UfrmUnidadeMedida.pas=E:\FURB\Aulas\Módulo 04 - Banco de Dados\PedidoCompra\UfrmProdutos.pas</Transaction>
+    <Transaction>2022/10/29 19:33:06.000.454,E:\FURB\Aulas\Módulo 04 - Banco de Dados\PedidoCompra\UfrmUnidadeMedida.dfm=E:\FURB\Aulas\Módulo 04 - Banco de Dados\PedidoCompra\UfrmProdutos.dfm</Transaction>
+    <Transaction>2022/10/29 19:37:42.000.480,=E:\FURB\Aulas\Módulo 04 - Banco de Dados\PedidoCompra\UfrmProdutos.pas</Transaction>
+    <Transaction>2022/10/29 19:59:25.000.087,E:\FURB\Aulas\Módulo 04 - Banco de Dados\PedidoCompra\UfrmFornecedores.dfm=E:\FURB\Aulas\Módulo 04 - Banco de Dados\PedidoCompra\UfrmUnidadeMedida.dfm</Transaction>
+    <Transaction>2022/10/29 19:59:25.000.087,E:\FURB\Aulas\Módulo 04 - Banco de Dados\PedidoCompra\UfrmFornecedores.pas=E:\FURB\Aulas\Módulo 04 - Banco de Dados\PedidoCompra\UfrmUnidadeMedida.pas</Transaction>
+    <Transaction>2022/10/29 19:59:52.000.469,=E:\FURB\Aulas\Módulo 04 - Banco de Dados\PedidoCompra\UfrmUnidadeMedida.pas</Transaction>
+    <Transaction>2022/10/29 20:02:15.000.403,E:\FURB\Aulas\Módulo 04 - Banco de Dados\PedidoCompra\UfrmCompradores.dfm=E:\FURB\Aulas\Módulo 04 - Banco de Dados\PedidoCompra\UfrmFornecedores.dfm</Transaction>
+    <Transaction>2022/10/29 20:02:15.000.402,E:\FURB\Aulas\Módulo 04 - Banco de Dados\PedidoCompra\UfrmCompradores.pas=E:\FURB\Aulas\Módulo 04 - Banco de Dados\PedidoCompra\UfrmFornecedores.pas</Transaction>
+    <Transaction>2022/10/29 20:02:35.000.565,=E:\FURB\Aulas\Módulo 04 - Banco de Dados\PedidoCompra\UfrmFornecedores.pas</Transaction>
+    <Transaction>2022/10/29 20:06:41.000.237,=E:\FURB\Aulas\Módulo 04 - Banco de Dados\PedidoCompra\Unit1.pas</Transaction>
+    <Transaction>2022/10/29 20:06:49.000.626,E:\FURB\Aulas\Módulo 04 - Banco de Dados\PedidoCompra\UfrmPedidos.dfm=E:\FURB\Aulas\Módulo 04 - Banco de Dados\PedidoCompra\Unit1.dfm</Transaction>
+    <Transaction>2022/10/29 20:06:49.000.626,E:\FURB\Aulas\Módulo 04 - Banco de Dados\PedidoCompra\UfrmPedidos.pas=E:\FURB\Aulas\Módulo 04 - Banco de Dados\PedidoCompra\Unit1.pas</Transaction>
+    <Transaction>2022/10/31 21:04:37.000.061,=D:\FURB\Aulas\Módulo 04 - Banco de Dados\PedidoCompra\Unit1.pas</Transaction>
+    <Transaction>2023/01/11 18:59:12.000.859,=C:\Users\mysql\Desktop\Relatorios no Dephi\PedidoCompra\Unit1.pas</Transaction>
+    <Transaction>2023/01/11 18:59:28.000.765,=C:\Users\mysql\Desktop\Relatorios no Dephi\PedidoCompra\Unit1.pas</Transaction>
+    <Transaction>2023/01/11 18:59:54.000.623,C:\Users\mysql\Desktop\Relatorios no Dephi\PedidoCompra\Unit1.dfm=C:\Users\mysql\Desktop\Relatorios no Dephi\PedidoCompra\UfrmRelUnidadeMedida.dfm</Transaction>
+    <Transaction>2023/01/11 18:59:54.000.623,C:\Users\mysql\Desktop\Relatorios no Dephi\PedidoCompra\Unit1.pas=C:\Users\mysql\Desktop\Relatorios no Dephi\PedidoCompra\UfrmRelUnidadeMedida.pas</Transaction>
+    <Transaction>2023/01/11 21:04:49.000.522,=C:\Users\mysql\Desktop\Relatorios no Dephi\PedidoCompra\Unit1.pas</Transaction>
+    <Transaction>2023/01/11 21:07:48.000.094,C:\Users\mysql\Desktop\Relatorios no Dephi\PedidoCompra\Unit1.dfm=C:\Users\mysql\Desktop\Relatorios no Dephi\PedidoCompra\UfrmRelProdutos.dfm</Transaction>
+    <Transaction>2023/01/11 21:07:48.000.094,C:\Users\mysql\Desktop\Relatorios no Dephi\PedidoCompra\Unit1.pas=C:\Users\mysql\Desktop\Relatorios no Dephi\PedidoCompra\UfrmRelProdutos.pas</Transaction>
+    <Transaction>2023/01/11 21:14:47.000.384,=C:\Users\mysql\Desktop\Relatorios no Dephi\PedidoCompra\Unit1.pas</Transaction>
+    <Transaction>2023/01/11 21:15:21.000.175,C:\Users\mysql\Desktop\Relatorios no Dephi\PedidoCompra\Unit1.dfm=C:\Users\mysql\Desktop\Relatorios no Dephi\PedidoCompra\UfrmRelCompradores.dfm</Transaction>
+    <Transaction>2023/01/11 21:15:21.000.175,C:\Users\mysql\Desktop\Relatorios no Dephi\PedidoCompra\Unit1.pas=C:\Users\mysql\Desktop\Relatorios no Dephi\PedidoCompra\UfrmRelCompradores.pas</Transaction>
+    <Transaction>2023/01/11 21:32:06.000.741,=C:\Users\mysql\Desktop\Relatorios no Dephi\PedidoCompra\Unit1.pas</Transaction>
+    <Transaction>2023/01/11 21:32:33.000.278,C:\Users\mysql\Desktop\Relatorios no Dephi\PedidoCompra\Unit1.pas=C:\Users\mysql\Desktop\Relatorios no Dephi\PedidoCompra\UfrmRelFornecedores.pas</Transaction>
+    <Transaction>2023/01/11 21:32:33.000.278,C:\Users\mysql\Desktop\Relatorios no Dephi\PedidoCompra\Unit1.dfm=C:\Users\mysql\Desktop\Relatorios no Dephi\PedidoCompra\UfrmRelFornecedores.dfm</Transaction>
+    <Transaction>2023/01/12 19:38:59.515,=C:\Users\mysql\Desktop\Relatorios no Dephi\PedidoCompra\Unit1.pas</Transaction>
+    <Transaction>2023/01/12 19:39:09.264,C:\Users\mysql\Desktop\Relatorios no Dephi\PedidoCompra\UfrmRelPedidos.pas=C:\Users\mysql\Desktop\Relatorios no Dephi\PedidoCompra\Unit1.pas</Transaction>
+    <Transaction>2023/01/12 19:39:09.264,C:\Users\mysql\Desktop\Relatorios no Dephi\PedidoCompra\UfrmRelPedidos.dfm=C:\Users\mysql\Desktop\Relatorios no Dephi\PedidoCompra\Unit1.dfm</Transaction>
+  </Transactions>
+	<ProjectSortOrder AutoSort="0" SortType="0">
+    <File Path="UdmPedidos.pas"/>
+    <File Path="UdmPedidos.dfm"/>
+    <File Path="UfrmCompradores.pas"/>
+    <File Path="UfrmCompradores.dfm"/>
+    <File Path="UfrmFornecedores.pas"/>
+    <File Path="UfrmFornecedores.dfm"/>
+    <File Path="UfrmPedidos.pas"/>
+    <File Path="UfrmPedidos.dfm"/>
+    <File Path="UfrmPrincipal.pas"/>
+    <File Path="UfrmPrincipal.dfm"/>
+    <File Path="UfrmProdutos.pas"/>
+    <File Path="UfrmProdutos.dfm"/>
+    <File Path="UfrmUnidadeMedida.pas"/>
+    <File Path="UfrmUnidadeMedida.dfm"/>
+    <File Path="UfrmRelUnidadeMedida.pas"/>
+    <File Path="UfrmRelUnidadeMedida.dfm"/>
+    <File Path="UfrmRelProdutos.pas"/>
+    <File Path="UfrmRelProdutos.dfm"/>
+    <File Path="UfrmRelCompradores.pas"/>
+    <File Path="UfrmRelCompradores.dfm"/>
+    <File Path="UfrmRelFornecedores.pas"/>
+    <File Path="UfrmRelFornecedores.dfm"/>
+    <File Path="UfrmRelPedidos.pas"/>
+    <File Path="UfrmRelPedidos.dfm"/>
+  </ProjectSortOrder>
+</BorlandProject>
