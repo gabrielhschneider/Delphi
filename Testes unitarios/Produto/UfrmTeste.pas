@@ -41,7 +41,8 @@ begin
     xProduto.NomeProduto := 'Agua';
     xProduto.Quantidade  := StrToInt(edtQuantidade.Text);
     xProduto.PrecoUnitario := StrToFloat(edtPrecoUnitario.Text);
-    lblResultado.Caption := FloatToStr(xProduto.RetornarValorTotal());
+    lblResultado.Caption := FloatToStr(xProduto.RetornarValorTotal(
+    xProduto.Quantidade, xProduto.PrecoUnitario));
   finally
     FreeAndNil(xProduto);
 end;

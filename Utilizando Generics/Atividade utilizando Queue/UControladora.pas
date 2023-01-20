@@ -10,15 +10,13 @@ type
     private
      FFila: TQueue<TPaciente>;
 
-  public
-    constructor Create;
-    Destructor Destroy; Override;
-    procedure Adicionar_Paciente(aPaciente: TPaciente);
-    function Proximo: Tpaciente;
-
+    public
+      constructor Create;
+      Destructor Destroy; Override;
+      procedure Adicionar_Paciente(aPaciente: TPaciente);
+      function Verificar_Fila: Boolean;
+      function Proximo: Tpaciente;
   end;
-
-
 
 implementation
 
@@ -43,11 +41,17 @@ begin
   Result := FFila.Dequeue;
 end;
 
+function TControladora.Verificar_Fila: Boolean;
+begin
+  if FFila.Count >= 1 then
+    Result := True
+  else
+    Result := False;
+end;
+
 procedure TControladora.Adicionar_Paciente(aPaciente: TPaciente);
 begin
   FFila.Enqueue(aPaciente);
 end;
-
-
 
 end.

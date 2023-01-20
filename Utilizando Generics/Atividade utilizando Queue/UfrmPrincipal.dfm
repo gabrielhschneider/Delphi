@@ -25,9 +25,6 @@ object frmPrincipal: TfrmPrincipal
     Color = clWindow
     ParentBackground = False
     TabOrder = 0
-    ExplicitLeft = 1
-    ExplicitTop = 430
-    ExplicitWidth = 718
     object img_LogoPerfil: TImage
       Left = 1
       Top = 1
@@ -406,9 +403,6 @@ object frmPrincipal: TfrmPrincipal
     Color = clWindow
     ParentBackground = False
     TabOrder = 1
-    ExplicitLeft = -1
-    ExplicitTop = 273
-    ExplicitWidth = 718
     object Label4: TLabel
       Left = 153
       Top = 32
@@ -490,30 +484,26 @@ object frmPrincipal: TfrmPrincipal
     object lblNomeAtual: TLabel
       Left = 472
       Top = 64
-      Width = 62
+      Width = 3
       Height = 13
-      Caption = 'lblNomeAtual'
     end
     object lblCpfAtual: TLabel
       Left = 472
       Top = 96
-      Width = 52
+      Width = 3
       Height = 13
-      Caption = 'lblCpfAtual'
     end
     object lblNomeAnterior: TLabel
       Left = 200
       Top = 64
-      Width = 76
+      Width = 3
       Height = 13
-      Caption = 'lblNomeAnterior'
     end
     object lblCpfAnterior: TLabel
       Left = 200
       Top = 96
-      Width = 66
+      Width = 3
       Height = 13
-      Caption = 'lblCpfAnterior'
     end
     object pnProximo: TPanel
       Left = 299
@@ -541,8 +531,6 @@ object frmPrincipal: TfrmPrincipal
     Align = alClient
     Caption = 'Panel_ImgLogo'
     TabOrder = 2
-    ExplicitWidth = 718
-    ExplicitHeight = 302
     object Img_Logo: TImage
       Left = 1
       Top = 1

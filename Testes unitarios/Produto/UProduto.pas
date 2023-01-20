@@ -25,7 +25,8 @@ type
       property Quantidade    :Integer read FQuantidade write SetQuantidade;
       property PrecoUnitario :Double read FPrecoUnitario write SetPrecoUnitario;
       property ValorTotal    :Double read FValorTotal write SetValorTotal;
-      function RetornarValorTotal(): Double;
+      function RetornarValorTotal(aQuantidade: Integer;
+                                  aPrecoUnitario : Double): Double;
  End;
 
 implementation
@@ -74,11 +75,11 @@ begin
   FValorTotal := Value;
 end;
 
-//Função para Retornar o valor Total
-function TProduto.RetornarValorTotal(): Double;
+function TProduto.RetornarValorTotal(aQuantidade: Integer;
+  aPrecoUnitario: Double): Double;
 begin
-  //Calculando valor Total sem Descontos
-  ValorTotal := Quantidade * PrecoUnitario;
+    //Calculando valor Total sem Descontos
+  ValorTotal := aQuantidade * aPrecoUnitario;
 
   //Calculando Desconto
   if Quantidade <= 10 then

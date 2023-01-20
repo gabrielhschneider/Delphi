@@ -104,19 +104,56 @@ procedure TfrmPrincipal.Proximo_Paciente;
 var
   xPaciente : TPaciente;
 begin
-  //Alterando o anterior
-  lblNomeAnterior.Caption := lblNomeAtual.Caption;
-  lblCpfAnterior.Caption := lblCpfAtual.Caption;
 
-  //Instanciando as Classes
-  xPaciente := TPaciente.Create;
+  //Verificando se existe alguem na fila
+  if gControladora.Verificar_Fila then
+  begin
+    //Verificando e nao alterando o anterior
+    if lblNomeAtual.Caption = 'Não á pessoas na fila' then
+    begin
+          //Instanciando as Classes
+    xPaciente := TPaciente.Create;
 
-  //Buscando o proximo paciente
-  xPaciente := gControladora.Proximo;
+    //Buscando o proximo paciente
+    xPaciente := gControladora.Proximo;
 
-  //Alterando o Atual
-  lblNomeAtual.Caption := xPaciente.Nome;
-  lblCpfAtual.Caption := xPaciente.CPF;
+    //Alterando o Atual
+    lblNomeAtual.Caption := xPaciente.Nome;
+    lblCpfAtual.Caption := xPaciente.CPF;
+    end
+
+    //Verificando e alterando o anterior
+    else
+    begin
+    lblNomeAnterior.Caption := lblNomeAtual.Caption;
+    lblCpfAnterior.Caption := lblCpfAtual.Caption;
+
+    //Instanciando as Classes
+    xPaciente := TPaciente.Create;
+
+    //Buscando o proximo paciente
+    xPaciente := gControladora.Proximo;
+
+    //Alterando o Atual
+    lblNomeAtual.Caption := xPaciente.Nome;
+    lblCpfAtual.Caption := xPaciente.CPF;
+  end;
+
+  end
+
+  else
+  begin
+    if lblNomeAtual.Caption <> 'Não á pessoas na fila' then
+    begin
+      lblNomeAnterior.Caption := lblNomeAtual.Caption;
+      lblCpfAnterior.Caption := lblCpfAtual.Caption;
+
+      lblNomeAtual.Caption := 'Não á pessoas na fila';
+      lblCpfAtual.Caption  := ' ';
+    end;
+
+  end;
+
 end;
 
 end.

@@ -1,0 +1,63 @@
+unit UControladora;
+
+interface
+
+uses
+  Generics.Collections, UPaciente, SysUtils;
+
+type
+  TControladora = class
+    private
+     FFila: TQueue<TPaciente>;
+
+    public
+      constructor Create;
+      Destructor Destroy; Override;
+      procedure Adicionar_Paciente(aPaciente: TPaciente);
+      function Verificar_Fila: Boolean;
+      function Proximo: Tpaciente;
+
+  end;
+
+
+
+implementation
+
+uses
+  Vcl.Dialogs;
+
+{ TControladora }
+
+constructor TControladora.Create;
+begin
+  FFila := TQueue<TPaciente>.Create;
+end;
+
+destructor TControladora.Destroy;
+begin
+  FreeAndNil(FFila);
+  inherited;
+end;
+
+function TControladora.Proximo: TPaciente;
+begin
+  Result := FFila.Dequeue;
+end;
+
+
+function TControladora.Verificar_Fila: Boolean;
+begin
+  if FFila.Count = 1 then
+    Result := True
+  else
+    Result := False;
+end;
+
+procedure TControladora.Adicionar_Paciente(aPaciente: TPaciente);
+begin
+  FFila.Enqueue(aPaciente);
+end;
+
+
+
+end.
