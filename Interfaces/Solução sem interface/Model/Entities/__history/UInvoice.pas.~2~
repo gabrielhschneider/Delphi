@@ -1,0 +1,49 @@
+unit UInvoice;
+
+interface
+
+type
+  TInvoice = class
+    private
+      FBasicPayment: Double;
+      FTax : Double;
+
+    procedure SetBasicPayment(const Value: Double);
+    procedure SetTax(const Value: Double);
+
+    public
+      constructor Create(aBasicPayment, aTax: Double);
+
+      function TotalPayment: Double;
+
+      property BasicPayment: Double read FBasicPayment write SetBasicPayment;
+      property Tax : Double  read FTax write SetTax;
+
+  end;
+
+implementation
+
+{ TInvoice }
+
+constructor TInvoice.Create(aBasicPayment, aTax: Double);
+begin
+  FBasicPayment := aBasicPayment;
+  FTax := aTax;
+end;
+
+procedure TInvoice.SetBasicPayment(const Value: Double);
+begin
+  FBasicPayment := Value;
+end;
+
+procedure TInvoice.SetTax(const Value: Double);
+begin
+  FTax := Value;
+end;
+
+function TInvoice.TotalPayment: Double;
+begin
+  Result := GetBasicPayment + GetTax;
+end;
+
+end.

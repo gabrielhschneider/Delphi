@@ -1,0 +1,23 @@
+unit UCarRental;
+
+interface
+
+uses
+  UVeihcle, UInvoice;
+
+type
+  TCarRental = class
+    private
+
+    public
+      constructor Create(const aStart, aFinish :TDataTime; aVeihcle: TVeihcle);
+
+      property Start: TDataTime;
+      property Finish: TDataTime;
+      property Veihcle: TVeihcle;
+      property Invoice: TInvoice;
+  end;
+
+implementation
+
+end.
