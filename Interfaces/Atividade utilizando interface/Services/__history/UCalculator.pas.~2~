@@ -1,0 +1,18 @@
+unit UCalculator;
+
+interface
+
+type
+
+  ICalculatorService = Interface
+    ['{A1749B6C-A007-4B20-8D16-0C9673C3BAD9}']
+
+    function Sum(aNum1, aNum2: Double): Double;
+    function Subtract(aNum1, aNum2: Double): Double;
+    function Multiply(aNum1, aNum2: Double): Double;
+    function Divide(aNum1, aNum2: Double): Double;
+  End;
+
+implementation
+
+end.

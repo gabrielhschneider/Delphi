@@ -54,7 +54,7 @@ begin
     xBasicPayment := FPricePerHour * Math.Ceil(xHours)
 
   else
-    xBasicPayment := FPricePerHour * Math.Ceil(xHours / 24);
+    xBasicPayment := FPricePerDay * Math.Ceil(xHours / 24);
 
     xTax := FTaxService.Tax(xBasicPayment);
 

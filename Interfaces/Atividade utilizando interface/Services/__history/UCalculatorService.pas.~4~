@@ -1,0 +1,44 @@
+unit UCalculatorService;
+
+interface
+
+uses
+  UCalculatorServiceDefault, UCalculator;
+
+type
+    TTypeCalc = (OpSum, OpSub, OpMult, opDiv);
+
+    TCalculatorService = class
+    private
+      FNum1, FNum2 : Double;
+
+    public
+      function ProcessoCalc(aTypeCalc: TTypeCalc): Double;
+      constructor Create(aNum1, aNum2: Double);
+    end;
+
+implementation
+
+{ TCalculatorService }
+
+constructor TCalculatorService.Create(aNum1, aNum2: Double);
+begin
+  FNum1 := aNum1;
+  FNum2 := aNum2;
+end;
+
+function TCalculatorService.ProcessoCalc(aTypeCalc: TTypeCalc): Double;
+var
+  xOperacao : TCalculatorServiceDefault;
+begin
+  xOperacao := TCalculatorServiceDefault.Create;
+
+  case aTypeCalc of
+    OpSum : Result := xOperacao.Sum(FNum1,FNum2);
+    OpSub : Result := xOperacao.Subtract(FNum1,FNum2);
+    OpMult: Result := xOperacao.Multiply(FNum1,FNum2);
+    opDiv : Result := xOperacao.Divide(FNum1,FNum2);
+  end;
+end;
+
+end.

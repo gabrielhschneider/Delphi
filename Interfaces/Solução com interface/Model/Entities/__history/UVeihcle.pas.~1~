@@ -1,0 +1,38 @@
+unit UVeihcle;
+
+interface
+
+type
+  TVehicle = class
+    private
+      FModel: String;
+
+    function  GetModel: String;
+    procedure SetModel(const Value: String);
+
+    public
+      constructor Create(const aModel: String);
+      property Model: String read FModel write SetModel;
+  end;
+
+implementation
+
+{ TVehicle }
+
+constructor TVehicle.Create(const aModel: String);
+begin
+  FModel := aModel;
+end;
+
+function TVehicle.GetModel: String;
+begin
+  Return := FModel;
+end;
+
+procedure TVehicle.SetModel(const Value: String);
+begin
+  FModel := Value;
+end;
+
+end.
+

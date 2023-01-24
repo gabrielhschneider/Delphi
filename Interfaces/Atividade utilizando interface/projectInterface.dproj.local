@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2023/01/20 20:48:06.000.133,=C:\Users\mysql\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2023/01/23 19:46:53.000.965,=C:\Users\mysql\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2023/01/23 19:47:55.000.412,C:\Users\mysql\Documents\Embarcadero\Studio\Projects\Unit1.dfm=C:\Users\mysql\Documents\Delphi\Interfaces\Atividade utilizando interface\UfrmPrincipal.dfm</Transaction>
+    <Transaction>2023/01/23 19:47:55.000.412,C:\Users\mysql\Documents\Embarcadero\Studio\Projects\Unit1.pas=C:\Users\mysql\Documents\Delphi\Interfaces\Atividade utilizando interface\UfrmPrincipal.pas</Transaction>
+    <Transaction>2023/01/23 19:48:11.000.750,C:\Users\mysql\Documents\Embarcadero\Studio\Projects\Project2.dproj=C:\Users\mysql\Documents\Delphi\Interfaces\Atividade utilizando interface\projectInterface.dproj</Transaction>
+    <Transaction>2023/01/23 19:48:17.000.670,=C:\Users\mysql\Documents\Delphi\Interfaces\Atividade utilizando interface\Unit1.pas</Transaction>
+    <Transaction>2023/01/23 19:49:06.000.472,C:\Users\mysql\Documents\Delphi\Interfaces\Atividade utilizando interface\Unit1.pas=C:\Users\mysql\Documents\Delphi\Interfaces\Atividade utilizando interface\Services\UCalculator.pas</Transaction>
+    <Transaction>2023/01/23 19:51:37.000.244,=C:\Users\mysql\Documents\Delphi\Interfaces\Atividade utilizando interface\Unit1.pas</Transaction>
+    <Transaction>2023/01/23 19:51:56.000.758,C:\Users\mysql\Documents\Delphi\Interfaces\Atividade utilizando interface\Unit1.pas=C:\Users\mysql\Documents\Delphi\Interfaces\Atividade utilizando interface\Services\UCalculatorServiceDefault.pas</Transaction>
+    <Transaction>2023/01/23 20:06:56.000.636,=C:\Users\mysql\Documents\Delphi\Interfaces\Atividade utilizando interface\Unit1.pas</Transaction>
+    <Transaction>2023/01/23 20:08:05.000.090,C:\Users\mysql\Documents\Delphi\Interfaces\Atividade utilizando interface\Unit1.pas=C:\Users\mysql\Documents\Delphi\Interfaces\Atividade utilizando interface\Services\UCalculatorService.pas</Transaction>
+  </Transactions>
+</BorlandProject>

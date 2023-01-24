@@ -1,0 +1,13 @@
+unit UCalculatorService;
+
+interface
+
+uses
+  UCalculatorServiceDefault, UCalculator;
+
+type
+    TTypeCalc = (OpSum = 0, OpSub, OpMult, opDiv);
+
+implementation
+
+end.
