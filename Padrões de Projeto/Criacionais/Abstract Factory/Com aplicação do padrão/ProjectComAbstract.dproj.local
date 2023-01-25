@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2023/01/20 20:48:06.000.133,=C:\Users\mysql\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2023/01/24 19:15:38.000.770,=C:\Users\mysql\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2023/01/24 19:18:56.000.537,C:\Users\mysql\Documents\Delphi\Padrões de Projeto\Criacionais\Abstract Factory\Sem aplicação do padrão\UfrmPrincipal.dfm=C:\Users\mysql\Documents\Embarcadero\Studio\Projects\Unit1.dfm</Transaction>
+    <Transaction>2023/01/24 19:18:56.000.537,C:\Users\mysql\Documents\Delphi\Padrões de Projeto\Criacionais\Abstract Factory\Sem aplicação do padrão\UfrmPrincipal.pas=C:\Users\mysql\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2023/01/24 19:19:11.000.187,C:\Users\mysql\Documents\Delphi\Padrões de Projeto\Criacionais\Abstract Factory\Sem aplicação do padrão\ProjectSemAbstract.dproj=C:\Users\mysql\Documents\Embarcadero\Studio\Projects\Project2.dproj</Transaction>
+    <Transaction>2023/01/24 19:34:11.000.742,C:\Users\mysql\Documents\Delphi\Padrões de Projeto\Criacionais\Abstract Factory\Com aplicação do padrão\ProjectSemAbstract.dproj=C:\Users\mysql\Documents\Delphi\Padrões de Projeto\Criacionais\Abstract Factory\Com aplicação do padrão\ProjectComAbstract.dproj</Transaction>
+    <Transaction>2023/01/24 19:35:35.000.972,=C:\Users\mysql\Documents\Delphi\Padrões de Projeto\Criacionais\Abstract Factory\Com aplicação do padrão\Unit1.pas</Transaction>
+    <Transaction>2023/01/24 19:35:54.000.623,C:\Users\mysql\Documents\Delphi\Padrões de Projeto\Criacionais\Abstract Factory\Com aplicação do padrão\Unit1.pas=C:\Users\mysql\Documents\Delphi\Padrões de Projeto\Criacionais\Abstract Factory\Com aplicação do padrão\Factorys\UInterfaces.pas</Transaction>
+    <Transaction>2023/01/24 19:39:22.000.247,=C:\Users\mysql\Documents\Delphi\Padrões de Projeto\Criacionais\Abstract Factory\Com aplicação do padrão\Unit1.pas</Transaction>
+    <Transaction>2023/01/24 19:39:36.000.448,C:\Users\mysql\Documents\Delphi\Padrões de Projeto\Criacionais\Abstract Factory\Com aplicação do padrão\Unit1.pas=C:\Users\mysql\Documents\Delphi\Padrões de Projeto\Criacionais\Abstract Factory\Com aplicação do padrão\Factorys\UDell.pas</Transaction>
+    <Transaction>2023/01/24 19:39:42.000.608,=C:\Users\mysql\Documents\Delphi\Padrões de Projeto\Criacionais\Abstract Factory\Com aplicação do padrão\Unit1.pas</Transaction>
+    <Transaction>2023/01/24 19:39:53.000.769,C:\Users\mysql\Documents\Delphi\Padrões de Projeto\Criacionais\Abstract Factory\Com aplicação do padrão\Unit1.pas=C:\Users\mysql\Documents\Delphi\Padrões de Projeto\Criacionais\Abstract Factory\Com aplicação do padrão\Factorys\UApple.pas</Transaction>
+    <Transaction>2023/01/24 19:39:58.000.569,=C:\Users\mysql\Documents\Delphi\Padrões de Projeto\Criacionais\Abstract Factory\Com aplicação do padrão\Unit1.pas</Transaction>
+    <Transaction>2023/01/24 19:40:24.000.289,C:\Users\mysql\Documents\Delphi\Padrões de Projeto\Criacionais\Abstract Factory\Com aplicação do padrão\Unit1.pas=C:\Users\mysql\Documents\Delphi\Padrões de Projeto\Criacionais\Abstract Factory\Com aplicação do padrão\Entities\UMac.pas</Transaction>
+    <Transaction>2023/01/24 19:40:27.000.849,=C:\Users\mysql\Documents\Delphi\Padrões de Projeto\Criacionais\Abstract Factory\Com aplicação do padrão\Unit1.pas</Transaction>
+    <Transaction>2023/01/24 19:40:39.000.998,C:\Users\mysql\Documents\Delphi\Padrões de Projeto\Criacionais\Abstract Factory\Com aplicação do padrão\Unit1.pas=C:\Users\mysql\Documents\Delphi\Padrões de Projeto\Criacionais\Abstract Factory\Com aplicação do padrão\Entities\UInspirion.pas</Transaction>
+    <Transaction>2023/01/24 19:40:44.000.108,=C:\Users\mysql\Documents\Delphi\Padrões de Projeto\Criacionais\Abstract Factory\Com aplicação do padrão\Unit1.pas</Transaction>
+    <Transaction>2023/01/24 19:41:07.000.736,C:\Users\mysql\Documents\Delphi\Padrões de Projeto\Criacionais\Abstract Factory\Com aplicação do padrão\Unit1.pas=C:\Users\mysql\Documents\Delphi\Padrões de Projeto\Criacionais\Abstract Factory\Com aplicação do padrão\Entities\UMacBook.pas</Transaction>
+    <Transaction>2023/01/24 19:41:11.000.666,=C:\Users\mysql\Documents\Delphi\Padrões de Projeto\Criacionais\Abstract Factory\Com aplicação do padrão\Unit1.pas</Transaction>
+    <Transaction>2023/01/24 19:41:43.000.088,C:\Users\mysql\Documents\Delphi\Padrões de Projeto\Criacionais\Abstract Factory\Com aplicação do padrão\Unit1.pas=C:\Users\mysql\Documents\Delphi\Padrões de Projeto\Criacionais\Abstract Factory\Com aplicação do padrão\Entities\UVostro.pas</Transaction>
+    <Transaction>2023/01/24 19:55:40.825,C:\Users\mysql\Documents\Delphi\Padrões de Projeto\Criacionais\Abstract Factory\Com aplicação do padrão\Entities\UIMac.pas=C:\Users\mysql\Documents\Delphi\Padrões de Projeto\Criacionais\Abstract Factory\Com aplicação do padrão\Entities\UMac.pas</Transaction>
+  </Transactions>
+</BorlandProject>

@@ -1,0 +1,19 @@
+program ProjectComAbstract;
+
+uses
+  Vcl.Forms,
+  UfrmPrincipal in 'UfrmPrincipal.pas' {Form1},
+  UInterfaces in 'Factorys\UInterfaces.pas',
+  UDell in 'Factorys\UDell.pas',
+  UApple in 'Factorys\UApple.pas',
+  UMac in 'Entities\UMac.pas',
+  UInspirion in 'Entities\UInspirion.pas';
+
+{$R *.res}
+
+begin
+  Application.Initialize;
+  Application.MainFormOnTaskbar := True;
+  Application.CreateForm(TForm1, Form1);
+  Application.Run;
+end.

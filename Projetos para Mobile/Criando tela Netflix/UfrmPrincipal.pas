@@ -55,6 +55,7 @@ end;
 procedure TLayout.Image7Click(Sender: TObject);
 begin
   lytMenu.Visible := False;
+
 end;
 
 end.

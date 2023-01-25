@@ -1,0 +1,28 @@
+unit UDell;
+
+interface
+
+uses
+  UInterfaces;
+
+type
+  TDell = class(TInterfacedObject, IFactoryMarca)
+    function ConsultaNootbook: INootbook;
+    function ConsultarDesktop: IDesktop;
+  end;
+
+implementation
+
+{ TDell }
+
+function TDell.ConsultaNootbook: INootbook;
+begin
+  Result := TInspirion.Create;
+end;
+
+function TDell.ConsultarDesktop: IDesktop;
+begin
+  Result := TVostro.Create;
+end;
+
+end.

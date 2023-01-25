@@ -37,6 +37,7 @@ end;
 procedure TdmPedidos.DataModuleDestroy(Sender: TObject);
 begin
   FDConexao.Connected := False;
+
 end;
 
 end.

@@ -1,0 +1,28 @@
+unit UMacBook;
+
+interface
+
+uses
+  UInterfaces;
+
+type
+  TMacBook = class(TInterfacedObject, IDesktop)
+    function BuscarNomeProcessador: String;
+    function BuscarTamanhoHD      : String;
+  end;
+
+implementation
+
+{ TIMac }
+
+function TMacBook.BuscarNomeProcessador: String;
+begin
+  Result := '';
+end;
+
+function TMacBook.BuscarTamanhoHD: String;
+begin
+  Result := '';
+end;
+
+end.

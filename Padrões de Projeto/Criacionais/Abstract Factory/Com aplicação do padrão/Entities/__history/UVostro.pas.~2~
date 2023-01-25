@@ -1,0 +1,28 @@
+unit UVostro;
+
+interface
+
+uses
+  UInterfaces;
+
+type
+  TVostro = class(TInterfacedObject, IDesktop)
+    function BuscarNomeProcessador: String;
+    function BuscarTamanhoHD      : String;
+  end;
+
+implementation
+
+{ TVostro }
+
+function TVostro.BuscarNomeProcessador: String;
+begin
+  Result := '';
+end;
+
+function TVostro.BuscarTamanhoHD: String;
+begin
+  Result := '';
+end;
+
+end.
