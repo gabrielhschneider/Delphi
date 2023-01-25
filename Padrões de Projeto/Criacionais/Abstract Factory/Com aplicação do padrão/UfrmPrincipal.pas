@@ -46,9 +46,18 @@ begin
     xMarca := TApple.Create;
 
   //Consulta (cosntroi) os objetos
-  xNoteBook
+  xNoteBook := xMarca.ConsultarNotebook;
+  xDesktop := xMarca.ConsultarDesktop;
 
+  //Exibe os dados
+  lblTamanhoTela.Caption := xNoteBook.BuscarTamanhoTela;
+  lblMemoriaRam.Caption  := xNoteBook.BuscarMemoriaRam;
 
+  lblProcessador.Caption := xDesktop.BuscarNomeProcessador;
+  lblTamanhoHD.Caption   := xDesktop.BuscarTamanhoHD;
+
+  //Detalhe importante como usamos interface para as variaveis
+  //nao precisamos destruir seus objetos. O delphi faz isso por nos.
 end;
 
 end.

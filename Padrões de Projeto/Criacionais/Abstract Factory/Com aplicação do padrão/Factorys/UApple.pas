@@ -7,7 +7,7 @@ uses
 
 type
   TApple = class(TInterfacedObject, IFactoryMarca)
-    function ConsultarNootbook: INotebook;
+    function ConsultarNotebook: INotebook;
     function ConsultarDesktop: IDesktop;
   end;
 
@@ -20,12 +20,12 @@ uses
 
 function TApple.ConsultarNotebook: INotebook;
 begin
-  Result := TIMac.Create;
+  Result := TMacBook.Create;
 end;
 
 function TApple.ConsultarDesktop: IDesktop;
 begin
-  Result := TMacBook.Create;
+  Result := TIMac.Create;
 end;
 
 end.

@@ -9,9 +9,6 @@ type
   TVostro = class(TInterfacedObject, INoteBook)
     function BuscarTamanhoTela: String;
     function BuscarMemoriaRam : String;
-  private
-    function BuscarNomeProcessador: String;
-    function BuscarTamanhoHD: String;
   end;
 
 implementation

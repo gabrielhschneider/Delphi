@@ -20,12 +20,12 @@ uses
 
 function TDell.ConsultarNotebook: INotebook;
 begin
-  Result := TInspirion.Create;
+  Result := TVostro.Create;
 end;
 
 function TDell.ConsultarDesktop: IDesktop;
 begin
-  Result := TVostro.Create;
+  Result := TInspiron.Create;
 end;
 
 end.
