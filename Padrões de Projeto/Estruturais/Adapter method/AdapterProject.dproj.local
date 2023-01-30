@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2023/01/20 20:48:06.000.133,=C:\Users\mysql\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2023/01/25 20:47:31.000.046,=C:\Users\mysql\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2023/01/25 20:55:28.000.634,C:\Users\mysql\Documents\Embarcadero\Studio\Projects\Unit1.dfm=C:\Users\mysql\Documents\Delphi\Padrões de Projeto\Estruturais\Adapter\UfrmPrincipa.dfm</Transaction>
+    <Transaction>2023/01/25 20:55:28.000.634,C:\Users\mysql\Documents\Embarcadero\Studio\Projects\Unit1.pas=C:\Users\mysql\Documents\Delphi\Padrões de Projeto\Estruturais\Adapter\UfrmPrincipa.pas</Transaction>
+    <Transaction>2023/01/25 20:55:40.000.814,C:\Users\mysql\Documents\Embarcadero\Studio\Projects\Project2.dproj=C:\Users\mysql\Documents\Delphi\Padrões de Projeto\Estruturais\Adapter\AdapterProject.dproj</Transaction>
+    <Transaction>2023/01/25 20:58:43.000.929,=C:\Users\mysql\Documents\Delphi\Padrões de Projeto\Estruturais\Adapter method\Adapter\UWebServiceCorreios.pas</Transaction>
+    <Transaction>2023/01/25 20:58:51.000.823,C:\Users\mysql\Documents\Delphi\Padrões de Projeto\Estruturais\Adapter method\UfrmPrincipal.dfm=C:\Users\mysql\Documents\Delphi\Padrões de Projeto\Estruturais\Adapter method\UfrmPrincipa.dfm</Transaction>
+    <Transaction>2023/01/25 20:58:51.000.823,C:\Users\mysql\Documents\Delphi\Padrões de Projeto\Estruturais\Adapter method\UfrmPrincipal.pas=C:\Users\mysql\Documents\Delphi\Padrões de Projeto\Estruturais\Adapter method\UfrmPrincipa.pas</Transaction>
+    <Transaction>2023/01/25 20:59:05.000.526,=C:\Users\mysql\Documents\Delphi\Padrões de Projeto\Estruturais\Adapter method\Unit1.pas</Transaction>
+    <Transaction>2023/01/25 20:59:18.000.271,C:\Users\mysql\Documents\Delphi\Padrões de Projeto\Estruturais\Adapter method\Adapter\UInterfaceViaCEP.pas=C:\Users\mysql\Documents\Delphi\Padrões de Projeto\Estruturais\Adapter method\Unit1.pas</Transaction>
+    <Transaction>2023/01/25 21:04:17.000.087,=C:\Users\mysql\Documents\Delphi\Padrões de Projeto\Estruturais\Adapter method\Unit1.pas</Transaction>
+    <Transaction>2023/01/25 21:04:32.000.207,C:\Users\mysql\Documents\Delphi\Padrões de Projeto\Estruturais\Adapter method\Adapter\UTarget.pas=C:\Users\mysql\Documents\Delphi\Padrões de Projeto\Estruturais\Adapter method\Unit1.pas</Transaction>
+    <Transaction>2023/01/25 21:18:57.000.227,=C:\Users\mysql\Documents\Delphi\Padrões de Projeto\Estruturais\Adapter method\Unit1.pas</Transaction>
+    <Transaction>2023/01/25 21:19:33.000.450,C:\Users\mysql\Documents\Delphi\Padrões de Projeto\Estruturais\Adapter method\Unit1.pas=C:\Users\mysql\Documents\Delphi\Padrões de Projeto\Estruturais\Adapter method\Adapter\UWebServiceViaCEP.pas</Transaction>
+    <Transaction>2023/01/25 21:45:45.908,=C:\Users\mysql\Documents\Delphi\Padrões de Projeto\Estruturais\Adapter method\Unit1.pas</Transaction>
+    <Transaction>2023/01/25 21:46:00.108,C:\Users\mysql\Documents\Delphi\Padrões de Projeto\Estruturais\Adapter method\Adapter\UAdaptee.pas=C:\Users\mysql\Documents\Delphi\Padrões de Projeto\Estruturais\Adapter method\Unit1.pas</Transaction>
+  </Transactions>
+</BorlandProject>
