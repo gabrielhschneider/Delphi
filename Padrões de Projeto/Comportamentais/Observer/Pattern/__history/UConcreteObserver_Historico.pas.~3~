@@ -1,0 +1,32 @@
+unit UConcreteObserver_Historico;
+
+interface
+
+uses
+  Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes,
+  Vcl.Graphics, Vcl.Controls, Vcl.Forms, Vcl.Dialogs, UObserver;
+
+type
+  TFrame2 = class(TFrame, IOberver)
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+    procedure Atualizar(aNotificacao: TNotificacao);
+  end;
+
+implementation
+
+{$R *.dfm}
+
+procedure TFrame1.Atualizar(aNotificacao: TNotificacao);
+var
+  xTextoLog: String;
+begin
+  xTextoLog := Format('Uma operação de %s de %.2f foi adicionada',
+    [aNotificacao.Operacao, aNotificacao.Valor);
+
+  memo1.lines.Add(xTextoLog);
+end;
+
+end.

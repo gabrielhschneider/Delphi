@@ -1,0 +1,18 @@
+program ProjectCommand;
+
+uses
+  Vcl.Forms,
+  UfrmPrincipal in 'UfrmPrincipal.pas' {Form1},
+  UICommand in 'Pattern\UICommand.pas',
+  UConcreteCommand in 'Pattern\UConcreteCommand.pas',
+  UImvoker in 'Pattern\UImvoker.pas',
+  UReceiver in 'UReceiver.pas';
+
+{$R *.res}
+
+begin
+  Application.Initialize;
+  Application.MainFormOnTaskbar := True;
+  Application.CreateForm(TForm1, Form1);
+  Application.Run;
+end.

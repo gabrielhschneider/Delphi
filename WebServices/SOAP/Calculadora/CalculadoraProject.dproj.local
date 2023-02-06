@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2023/01/20 20:48:06.000.133,=C:\Users\mysql\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2023/02/01 20:12:33.000.144,=C:\Users\mysql\Documents\Embarcadero\Studio\Projects\FormUnit1.pas</Transaction>
+    <Transaction>2023/02/01 20:12:33.000.420,=C:\Users\mysql\Documents\Embarcadero\Studio\Projects\WebModuleUnit1.pas</Transaction>
+    <Transaction>2023/02/01 20:12:45.000.724,=C:\Users\mysql\Documents\Embarcadero\Studio\Projects\CalculadoraIntf.pas</Transaction>
+    <Transaction>2023/02/01 20:12:45.000.641,=C:\Users\mysql\Documents\Embarcadero\Studio\Projects\CalculadoraImpl.pas</Transaction>
+    <Transaction>2023/02/01 20:13:27.000.731,C:\Users\mysql\Documents\Delphi\WebServices\SOAP\Calculadora\CalculadoraIntf.pas=C:\Users\mysql\Documents\Embarcadero\Studio\Projects\CalculadoraIntf.pas</Transaction>
+    <Transaction>2023/02/01 20:13:29.000.163,C:\Users\mysql\Documents\Delphi\WebServices\SOAP\Calculadora\CalculadoraImpl.pas=C:\Users\mysql\Documents\Embarcadero\Studio\Projects\CalculadoraImpl.pas</Transaction>
+    <Transaction>2023/02/01 20:13:35.000.429,C:\Users\mysql\Documents\Delphi\WebServices\SOAP\Calculadora\FormUnit1.pas=C:\Users\mysql\Documents\Embarcadero\Studio\Projects\FormUnit1.pas</Transaction>
+    <Transaction>2023/02/01 20:13:35.000.429,C:\Users\mysql\Documents\Delphi\WebServices\SOAP\Calculadora\FormUnit1.dfm=C:\Users\mysql\Documents\Embarcadero\Studio\Projects\FormUnit1.dfm</Transaction>
+    <Transaction>2023/02/01 20:13:37.000.173,C:\Users\mysql\Documents\Delphi\WebServices\SOAP\Calculadora\WebModuleUnit1.dfm=C:\Users\mysql\Documents\Embarcadero\Studio\Projects\WebModuleUnit1.dfm</Transaction>
+    <Transaction>2023/02/01 20:13:37.000.173,C:\Users\mysql\Documents\Delphi\WebServices\SOAP\Calculadora\WebModuleUnit1.pas=C:\Users\mysql\Documents\Embarcadero\Studio\Projects\WebModuleUnit1.pas</Transaction>
+    <Transaction>2023/02/01 20:13:46.000.869,C:\Users\mysql\Documents\Delphi\WebServices\SOAP\Calculadora\CalculadoraProject.dproj=C:\Users\mysql\Documents\Embarcadero\Studio\Projects\Project2.dproj</Transaction>
+  </Transactions>
+</BorlandProject>

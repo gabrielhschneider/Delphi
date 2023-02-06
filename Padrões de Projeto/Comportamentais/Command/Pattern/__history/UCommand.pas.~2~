@@ -1,0 +1,12 @@
+unit UCommand;
+
+interface
+
+type
+  IComand = Interface
+    procedure Execute;
+  End;
+
+implementation
+
+end.

@@ -1,0 +1,18 @@
+program ProjectOberver;
+
+uses
+  Vcl.Forms,
+  USubject in 'USubject.pas',
+  UNotificacao in 'UNotificacao.pas',
+  UfrmPrincipal in 'UfrmPrincipal.pas' {Form1},
+  UObserver in 'Pattern\UObserver.pas',
+  UConcreteObserver_Log in 'Pattern\UConcreteObserver_Log.pas' {Frame1: TFrame};
+
+{$R *.res}
+
+begin
+  Application.Initialize;
+  Application.MainFormOnTaskbar := True;
+  Application.CreateForm(TForm1, Form1);
+  Application.Run;
+end.

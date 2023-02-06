@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2023/01/20 20:48:06.000.133,=C:\Users\mysql\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2023/02/03 18:30:06.000.596,C:\Users\mysql\Documents\Delphi\WebServices\REST\Calculadora\ProjectCalculadora.dproj=C:\Users\mysql\Documents\Embarcadero\Studio\Projects\Project2.dproj</Transaction>
+    <Transaction>2023/02/03 18:41:05.000.975,=C:\Users\mysql\Documents\Delphi\WebServices\REST\Calculadora\Unit1.pas</Transaction>
+    <Transaction>2023/02/03 18:43:06.000.671,C:\Users\mysql\Documents\Delphi\WebServices\REST\Calculadora\UCalculator.pas=C:\Users\mysql\Documents\Delphi\WebServices\REST\Calculadora\Unit1.pas</Transaction>
+    <Transaction>2023/02/03 18:45:02.000.893,=C:\Users\mysql\Documents\Delphi\WebServices\REST\Calculadora\Unit1.pas</Transaction>
+    <Transaction>2023/02/03 18:45:21.000.170,=C:\Users\mysql\Documents\Delphi\WebServices\REST\Calculadora\UCalculatorService.pas</Transaction>
+    <Transaction>2023/02/03 18:45:27.000.437,=C:\Users\mysql\Documents\Delphi\WebServices\REST\Calculadora\UCalculatorServiceDefault.pas</Transaction>
+    <Transaction>2023/02/03 18:56:28.000.273,C:\Users\mysql\Documents\Delphi\WebServices\REST\Calculadora\UCalculatorService.pas=</Transaction>
+  </Transactions>
+</BorlandProject>

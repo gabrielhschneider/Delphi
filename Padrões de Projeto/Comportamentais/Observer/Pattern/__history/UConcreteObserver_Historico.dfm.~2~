@@ -1,0 +1,58 @@
+object Frame2: TFrame2
+  Left = 0
+  Top = 0
+  Width = 334
+  Height = 209
+  TabOrder = 0
+  object Label1: TLabel
+    Left = 88
+    Top = 5
+    Width = 157
+    Height = 13
+    Caption = 'D'#233'bitos agrupados por categoria'
+  end
+  object DBGrid1: TDBGrid
+    Left = 3
+    Top = 24
+    Width = 320
+    Height = 177
+    DataSource = DataSource1
+    TabOrder = 0
+    TitleFont.Charset = DEFAULT_CHARSET
+    TitleFont.Color = clWindowText
+    TitleFont.Height = -11
+    TitleFont.Name = 'Tahoma'
+    TitleFont.Style = []
+    Columns = <
+      item
+        Expanded = False
+        FieldName = 'Categoria'
+        Width = 200
+        Visible = True
+      end
+      item
+        Expanded = False
+        FieldName = 'Total'
+        Width = 200
+        Visible = True
+      end>
+  end
+  object DataSource1: TDataSource
+    DataSet = ClientDataSet1
+    Left = 256
+    Top = 120
+  end
+  object ClientDataSet1: TClientDataSet
+    Aggregates = <>
+    Params = <>
+    Left = 168
+    Top = 120
+    object ClientDataSet1Categoria: TStringField
+      FieldName = 'Categoria'
+      Size = 100
+    end
+    object ClientDataSet1Total: TCurrencyField
+      FieldName = 'Total'
+    end
+  end
+end

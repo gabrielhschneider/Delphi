@@ -1,0 +1,47 @@
+program ProjectCalculadora;
+
+{$APPTYPE CONSOLE}
+
+uses
+  Horse,
+  System.SysUtils,
+  UCalculator in 'UCalculator.pas',
+  UCalculatorService in 'UCalculatorService.pas',
+  UCalculatorServiceDefault in 'UCalculatorServiceDefault.pas',
+  UCalculator, UCalculatorService, UCalculatorServiceDefault;
+
+begin
+//Somar
+THorse.Get('/somar/:valor1/:valor2',
+procedure(Req: THorseRequest; Res: THorseResponse; Next: TProc)
+var
+  xValor1,
+  xValor2: Double;
+  xCalculadora: ICalculatorService;
+  xResultado: Double;
+begin
+  if Req.Params.Count <> 2 then
+  begin
+  Res.Send('Parâmetros Incorretos!');
+  Exit;
+  end;
+
+  if not TryStrToFloat(Req.Params.Items['valor1'], xValor1) then
+  begin
+  Res.Send('Valor 1 Incorreto!');
+  Exit;
+  end;
+
+  if not TryStrToFloat(Req.Params.Items['valor2'], xValor2) then
+  begin
+  Res.Send('Valor 2 Incorreto!');
+  Exit;
+  end;
+
+  xCalculadora := TCalculatorService.Create(xValor1, xValor2);
+  xResultado   := xCalculadora.Sum(xValor1, xValor2);
+
+  Res.Send('Soma: '    xResultado.ToString);
+end);
+
+end.

@@ -1,0 +1,58 @@
+unit UfrmPrincipal;
+
+interface
+
+uses
+  Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, Vcl.Graphics,
+  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Vcl.StdCtrls, ICalculadora1;
+
+type
+  TEnum = (OpSomar = 0, OpSubtrair, OpDividir, OpMultiplicar);
+
+  TlblResultad = class(TForm)
+    edtNum1: TEdit;
+    edtNum2: TEdit;
+    btnCalcular: TButton;
+    Label1: TLabel;
+    lblResultado: TLabel;
+    cmbOperacao: TComboBox;
+    Label3: TLabel;
+    Label4: TLabel;
+    Label5: TLabel;
+    procedure btnCalcularClick(Sender: TObject);
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  lblResultad: TlblResultad;
+
+implementation
+
+{$R *.dfm}
+
+procedure TlblResultad.btnCalcularClick(Sender: TObject);
+var
+  xNum1, xNum2: Double;
+begin
+  xNum1 := StrToFloat(edtNum1.Text);
+  xNum2 := StrToFloat(edtNum2.Text);
+  case TEnum(cmbOperacao) of
+  OpSomar:
+    lblResultado.Caption := GetICalculadora.Somar(xNum1, xNum2).ToString;
+
+  opSubtrair:
+    lblResultado.Caption := GetICalculadora.Subtrair(xNum1, xNum2).ToString;
+
+    opDividir:
+    lblResultado.Caption := GetICalculadora.Dividir(xNum1, xNum2).ToString;
+
+    opMultiplicar:
+    lblResultado.Caption := GetICalculadora.Multiplicar(xNum1, xNum2).ToString;
+
+  end;
+end;
+
+end.

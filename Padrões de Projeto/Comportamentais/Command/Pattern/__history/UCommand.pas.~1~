@@ -1,0 +1,12 @@
+unit UICommand;
+
+interface
+
+type
+  IComand = Interface
+    procedure Execute;
+  End;
+
+implementation
+
+end.

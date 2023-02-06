@@ -1,0 +1,7 @@
+unit UConcreteCommand;
+
+interface
+
+implementation
+
+end.

@@ -1,0 +1,47 @@
+unit UConcreteCommand;
+
+interface
+
+uses
+  UCommand, UReceiver;
+
+type
+  {Concrete Command}
+  TProcess = class(TInterfacedObject, ICommand);
+  private
+    //Variavel para armazenar a referencia do Receiver
+    FReceiver: TReceiver;
+  public
+    constructor Create(aReceiver: TReceiver);
+
+    //Assinatura da interface - Metodo d execução da operação
+    procedure Execute;
+  end;
+
+  {Concrete Command}
+  TProgramas = class(TInterfacesObject, ICommand)
+    private
+    //Variavel para armazenar a referencia do Receiver
+    FReceiver: TReceiver;
+  public
+    constructor Create(aReceiver: TReceiver);
+
+    //Assinatura da interface - Metodo d execução da operação
+    procedure Execute;
+  end;
+
+  {Concrete Command}
+  TVariaveisAmbiente = class(TInterfacesObject, ICommand)
+    private
+    //Variavel para armazenar a referencia do Receiver
+    FReceiver: TReceiver;
+  public
+    constructor Create(aReceiver: TReceiver);
+
+    //Assinatura da interface - Metodo d execução da operação
+    procedure Execute;
+  end;
+
+implementation
+
+end.

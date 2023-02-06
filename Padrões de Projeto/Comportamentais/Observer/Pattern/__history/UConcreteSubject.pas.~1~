@@ -1,0 +1,35 @@
+unit UConcreteSubject;
+
+interface
+
+uses
+  Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes,
+  Vcl.Graphics, Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Data.DB, Vcl.StdCtrls,
+  Datasnap.DBClient, Vcl.Grids, Vcl.DBGrids;
+
+type
+  TFrame1 = class(TFrame)
+    btnGravar: TButton;
+    ComboBox1: TComboBox;
+    ComboBox2: TComboBox;
+    Edit1: TEdit;
+    DBGrid1: TDBGrid;
+    DataSource1: TDataSource;
+    ClientDataSet1: TClientDataSet;
+    ClientDataSet1Categoria: TStringField;
+    ClientDataSet1Valor: TCurrencyField;
+    Label1: TLabel;
+    Label2: TLabel;
+    Label3: TLabel;
+    ClientDataSet1Operacao: TStringField;
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+implementation
+
+{$R *.dfm}
+
+end.
