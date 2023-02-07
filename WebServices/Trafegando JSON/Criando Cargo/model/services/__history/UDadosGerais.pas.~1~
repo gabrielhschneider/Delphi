@@ -1,0 +1,11 @@
+unit UDadosGerais;
+
+interface
+
+uses
+  System.JSON;
+
+implementation
+  TDadosGerais =
+
+end.

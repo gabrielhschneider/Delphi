@@ -1,0 +1,24 @@
+program ProjectJhonson;
+
+{$APPTYPE CONSOLE}
+
+uses
+  Horse,
+  Horse.Jhonson,
+  Horse.Commons,
+  System.JSON,
+  System.SysUtils,
+  UDadosGerais in 'model\services\UDadosGerais.pas';
+
+begin
+  THorse
+    .Use(Jhonson());
+  THorse.Get('/ping',
+
+
+  THorse.Listen(9000,
+    procedure(Horse: THorse)
+    begin
+      Writeln('Server is runing on port ' + IntToStr(Horse.Port));
+    end);
+end.
