@@ -1,0 +1,31 @@
+unit UEntidadeProduto;
+
+interface
+
+type
+
+  TEntidadeProduto = Class
+    private
+      FID           : Integer;
+      FDescricao    : String;
+      FUnidadeMedida: String;
+      FPrecoVenda   : Real;
+    public
+      constructor Create(aID: Integer; aDescricao, aUnidadeMedida: String;
+        aPrecoVenda: Real);
+  End;
+
+implementation
+
+{ TEntidadeProduto }
+
+constructor TEntidadeProduto.Create(aID: Integer; aDescricao,
+  aUnidadeMedida: String; aPrecoVenda: Real);
+begin
+  FID           := aID;
+  FDescricao    := aDescricao;
+  FUnidadeMedida:= aUnidadeMedida;
+  FPrecoVenda   := aPrecoVenda;
+end;
+
+end.

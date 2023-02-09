@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2023/01/20 20:48:06.000.133,=C:\Users\mysql\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2023/02/03 19:45:51.000.060,=C:\Users\mysql\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2023/02/08 19:23:24.000.518,C:\Users\mysql\Documents\Delphi\WebServices\Atividade Final\ProjectAtividadeFinal.dproj=C:\Users\mysql\Documents\Embarcadero\Studio\Projects\Project2.dproj</Transaction>
+    <Transaction>2023/02/08 19:24:15.000.756,=C:\Users\mysql\Documents\Delphi\WebServices\Atividade Final\Unit1.pas</Transaction>
+    <Transaction>2023/02/08 19:24:43.000.826,C:\Users\mysql\Documents\Delphi\WebServices\Atividade Final\Unit1.pas=C:\Users\mysql\Documents\Delphi\WebServices\Atividade Final\Classes\UEntidadeProduto.pas</Transaction>
+    <Transaction>2023/02/08 19:30:28.000.541,=C:\Users\mysql\Documents\Delphi\WebServices\Atividade Final\Unit1.pas</Transaction>
+    <Transaction>2023/02/08 19:31:32.000.225,C:\Users\mysql\Documents\Delphi\WebServices\Atividade Final\Unit1.pas=C:\Users\mysql\Documents\Delphi\WebServices\Atividade Final\Controladores\UControladoraProdutos.pas</Transaction>
+    <Transaction>2023/02/08 20:16:50.000.462,=C:\Users\mysql\Documents\Delphi\WebServices\Atividade Final\Classes\UDadosGerais.pas</Transaction>
+  </Transactions>
+</BorlandProject>

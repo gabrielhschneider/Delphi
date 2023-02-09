@@ -1,0 +1,90 @@
+unit UControladoraProdutos;
+
+interface
+
+uses
+  System.JSON,
+  Horse,
+  GBSwagger.Path.Attributes,
+  UEntidadeProduto;
+
+type
+
+  TProdutoController = class
+    private
+      FNomeArquivo : String;
+      FJSON: TJSONArray;
+
+      procedure SalvarDados;
+      procedure CarregarDados;
+    public
+      constructor Create(const aNomeArquivo: string);
+      [SwagGET('Listar Produtos', True)]
+      [SwagParamQuery('id', 'id do produto')]
+      [SwagResponse(200, TEntidadeProduto, 'Informações do produto', True)]
+      class procedure GetProduto(Req: THorseRequest; Res: THorseResponse; Next: TProc);
+
+      [SwagGET('{id}', 'Procurar um Produto')]
+      [SwagParamPath('id', 'id do produto')]
+      [SwagResponse(200, TEntidadeProduto, 'Informações do produto')]
+      [SwagResponse(404)]
+      class procedure FindProduto(Req: THorseRequest; Res: THorseResponse; Next: TProc);
+
+      [SwagPOST('Adicionar Novo produto')]
+      [SwagParamBody('Informações do produto', TEntidadeProduto)]
+      [SwagResponse(201, TEntidadeProduto)]
+      [SwagResponse(400)]
+      class procedure InsertProduto(Req: THorseRequest; Res: THorseResponse; Next: TProc);
+
+      [SwagPUT('{id}', 'Atualizar um produto')]
+      [SwagParamPath('id', 'Id do produto')]
+      [SwagParamBody('Informações do produto', TEntidadeProduto)]
+      [SwagResponse(204)]
+      [SwagResponse(400)]
+      [SwagResponse(404)]
+      class procedure UpdateProduto(Req: THorseRequest; Res: THorseResponse; Next: TProc);
+
+      [SwagDELETE('{id}', 'Deletar um produto')]
+      [SwagParamPath('id', 'Id do produto')]
+      [SwagResponse(204)]
+      [SwagResponse(400)]
+      [SwagResponse(404)]
+      class procedure DeleteProduto(Req: THorseRequest; Res: THorseResponse; Next: TProc);
+  end;
+
+implementation
+
+{ TProdutoController }
+
+class procedure TProdutoController.DeleteProduto(Req: THorseRequest;
+  Res: THorseResponse; Next: TProc);
+begin
+
+end;
+
+class procedure TProdutoController.FindProduto(Req: THorseRequest;
+  Res: THorseResponse; Next: TProc);
+begin
+
+end;
+
+class procedure TProdutoController.GetProduto(Req: THorseRequest;
+  Res: THorseResponse; Next: TProc);
+begin
+
+end;
+
+//Adicionar Produto
+class procedure TProdutoController.InsertProduto(Req: THorseRequest;
+  Res: THorseResponse; Next: TProc);
+begin
+
+end;
+
+class procedure TProdutoController.UpdateProduto(Req: THorseRequest;
+  Res: THorseResponse; Next: TProc);
+begin
+
+end;
+
+end.

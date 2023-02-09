@@ -1,0 +1,73 @@
+unit UControladoraProdutos;
+
+interface
+
+uses
+  System.JSON,
+  System.Classes,
+  System.SysUtils,
+  Horse,
+  GBSwagger.Path.Attributes,
+  UEntidadeProduto;
+
+type
+
+  TProdutoController = class
+    private
+    public
+      constructor Create(const aNomeArquivo: string);
+
+      [SwagGET('Listar Produtos', True)]
+      [SwagParamQuery('id', 'id do produto')]
+      [SwagResponse(200, TEntidadeProduto, 'Informações do produto', True)]
+      class procedure GetProduto(Req: THorseRequest; Res: THorseResponse; Next: TProc);
+
+      [SwagPOST('Adicionar Novo produto')]
+      [SwagParamBody('Informações do produto', TEntidadeProduto)]
+      [SwagResponse(201, TEntidadeProduto)]
+      [SwagResponse(400)]
+      class procedure InsertProduto(Req: THorseRequest; Res: THorseResponse; Next: TProc);
+
+
+      [SwagDELETE('{id}', 'Deletar um produto')]
+      [SwagParamPath('id', 'Id do produto')]
+      [SwagResponse(204)]
+      [SwagResponse(400)]
+      [SwagResponse(404)]
+      class procedure DeleteProduto(Req: THorseRequest; Res: THorseResponse; Next: TProc);
+  end;
+
+implementation
+
+{ TProdutoController }
+
+//Create
+constructor TProdutoController.Create(const aNomeArquivo: string);
+begin
+  FNomeArquivo := aNomeArquivo;
+  Self.CarregarDados;
+end;
+
+//Delete
+class procedure TProdutoController.DeleteProduto(Req: THorseRequest;
+  Res: THorseResponse; Next: TProc);
+begin
+
+end;
+
+
+//Listar
+class procedure TProdutoController.GetProduto(Req: THorseRequest;
+  Res: THorseResponse; Next: TProc);
+begin
+
+end;
+
+//Inserir
+class procedure TProdutoController.InsertProduto(Req: THorseRequest;
+  Res: THorseResponse; Next: TProc);
+begin
+
+end;
+
+end.
