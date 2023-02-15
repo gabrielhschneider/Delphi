@@ -1,0 +1,29 @@
+unit UUtil.Banco;
+
+interface
+
+uses
+  FireDac.Comp.Client,
+  FireDac.Phys.MySQL,
+  FireDac.DApt,
+  FireDac.Stan.Def,
+  FireDac.Stan.Async,
+  Data.DB,
+  DAtaSet.Serialize,
+  SysUtils;
+
+type
+  TUtilBanco = class
+    private
+      class function Conexao: TFDConnection;
+    public
+      class function ExecutarConsulta(const aSQL: String): TFDQuery;
+      class function AdicionarRegistro(const aTabela: String;
+        const aJSON: String): Boolean;
+      class function RemoverRegistro(const aTabela: String;
+        const aIdentificador: Integer): Boolean;
+  end;
+
+implementation
+
+end.

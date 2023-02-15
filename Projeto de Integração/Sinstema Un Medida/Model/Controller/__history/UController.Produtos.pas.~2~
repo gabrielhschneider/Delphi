@@ -1,0 +1,27 @@
+unit UController.Produtos;
+
+interface
+
+uses
+  Horse;
+
+type
+  TControllerProdutos = class
+    public
+    private
+    class procedure GetProdutos(Req: THorseRequest; Res: THorseResponse;
+      Next: TProc);
+
+    class procedure GetProduto(Req: THorseRequest; Res: THorseResponse;
+      Next: TProc);
+
+    class procedure InsertProduto(Req: THorseRequest; Res: THorseResponse;
+      Next: TProc);
+
+    class procedure DeleteProduto(Req: THorseRequest; Res: THorseResponse;
+      Next: TProc);
+  end;
+
+implementation
+
+end.

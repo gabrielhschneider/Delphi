@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2023/01/20 20:52:02.000.409,=C:\Users\mysql\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2023/02/03 18:20:50.000.493,=C:\Users\mysql\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2023/02/07 18:33:15.000.120,=C:\Users\mysql\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2023/02/13 19:44:32.000.091,C:\Devs2Blu-Delphi-main\Web Service\Aula REST Banco de Dados\Aula CRUD\CRUD.dproj=C:\Users\mysql\Documents\Embarcadero\Studio\Projects\Project1.dproj</Transaction>
+    <Transaction>2023/02/13 19:46:03.000.028,=C:\Devs2Blu-Delphi-main\Web Service\Aula REST Banco de Dados\Aula CRUD\Unit1.pas</Transaction>
+    <Transaction>2023/02/13 19:46:17.000.007,C:\Devs2Blu-Delphi-main\Web Service\Aula REST Banco de Dados\Aula CRUD\Model\Utils\UUtil.Banco.pas=C:\Devs2Blu-Delphi-main\Web Service\Aula REST Banco de Dados\Aula CRUD\Unit1.pas</Transaction>
+    <Transaction>2023/02/13 20:37:09.000.223,=C:\Devs2Blu-Delphi-main\Web Service\Aula REST Banco de Dados\Aula CRUD\Unit1.pas</Transaction>
+    <Transaction>2023/02/13 20:37:32.000.288,C:\Devs2Blu-Delphi-main\Web Service\Aula REST Banco de Dados\Aula CRUD\Unit1.pas=C:\Devs2Blu-Delphi-main\Web Service\Aula REST Banco de Dados\Aula CRUD\Model\DAO\UDAO.intf.pas</Transaction>
+    <Transaction>2023/02/13 20:56:26.000.504,=C:\Devs2Blu-Delphi-main\Web Service\Aula REST Banco de Dados\Aula CRUD\Unit1.pas</Transaction>
+    <Transaction>2023/02/13 20:56:39.000.108,C:\Devs2Blu-Delphi-main\Web Service\Aula REST Banco de Dados\Aula CRUD\Unit1.pas=C:\Devs2Blu-Delphi-main\Web Service\Aula REST Banco de Dados\Aula CRUD\Model\DAO\UDAO.Produtos.pas</Transaction>
+    <Transaction>2023/02/13 21:18:50.000.582,=C:\Devs2Blu-Delphi-main\Web Service\Aula REST Banco de Dados\Aula CRUD\Unit1.pas</Transaction>
+    <Transaction>2023/02/13 21:19:04.000.808,C:\Devs2Blu-Delphi-main\Web Service\Aula REST Banco de Dados\Aula CRUD\Model\Controller\UController.Produtos.pas=C:\Devs2Blu-Delphi-main\Web Service\Aula REST Banco de Dados\Aula CRUD\Unit1.pas</Transaction>
+    <Transaction>2023/02/14 19:22:07.000.756,=C:\Users\mysql\Documents\Delphi\Projeto de Integração\Sinstema Un Medida\Unit1.pas</Transaction>
+    <Transaction>2023/02/14 19:23:39.000.713,C:\Users\mysql\Documents\Delphi\Projeto de Integração\Sinstema Un Medida\Model\DAO\UDAO.Produtos.pas=C:\Users\mysql\Documents\Delphi\Projeto de Integração\Sinstema Un Medida\Model\DAO\UDAO.UnMedida.pas</Transaction>
+    <Transaction>2023/02/14 19:25:54.000.900,C:\Users\mysql\Documents\Delphi\Projeto de Integração\Sinstema Un Medida\Model\Controller\UController.Produtos.pas=C:\Users\mysql\Documents\Delphi\Projeto de Integração\Sinstema Un Medida\Model\Controller\UController.UnMedida.pas</Transaction>
+  </Transactions>
+</BorlandProject>
