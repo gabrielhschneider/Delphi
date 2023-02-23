@@ -1,0 +1,14 @@
+program DevsBets_frontEnd;
+
+uses
+  System.StartUpCopy,
+  FMX.Forms,
+  UfrmLogin in 'model\UfrmLogin.pas' {Form1};
+
+{$R *.res}
+
+begin
+  Application.Initialize;
+  Application.CreateForm(TForm1, Form1);
+  Application.Run;
+end.

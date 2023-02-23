@@ -1,5 +1,4 @@
-https://app.brmodeloweb.com
-
+-- https://app.brmodeloweb.com/#!/main -- 
 
 CREATE SCHEMA devsbets;
 
@@ -38,8 +37,8 @@ CREATE TABLE matchs
  id INT unsigned PRIMARY KEY AUTO_INCREMENT,  
  date DATE NOT NULL,  
  hour TIME NOT NULL,  
- result_team_a INT unsigned,  
- result_team_b INT unsigned,  
+ result_team_a INT UNSIGNED NOT NULL DEFAULT 0,  
+ result_team_b INT UNSIGNED NOT NULL DEFAULT 0,  
  status tinyint(1) unsigned NOT NULL DEFAULT '1',  
  id_team_a INT unsigned NOT NULL,  
  id_team_b INT unsigned NOT NULL  

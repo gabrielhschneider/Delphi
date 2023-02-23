@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2023/01/20 20:48:06.000.133,=C:\Users\mysql\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2023/02/03 19:45:51.000.060,=C:\Users\mysql\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2023/02/22 19:15:09.000.284,=C:\Users\mysql\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2023/02/22 19:20:56.000.854,C:\Users\mysql\Documents\Delphi\Projeto Final Devs2Blu\4 - Projeto\frontend - desktop\model\UfrmLogin.pas=C:\Users\mysql\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2023/02/22 19:20:56.000.854,C:\Users\mysql\Documents\Delphi\Projeto Final Devs2Blu\4 - Projeto\frontend - desktop\model\UfrmLogin.fmx=C:\Users\mysql\Documents\Embarcadero\Studio\Projects\Unit1.fmx</Transaction>
+    <Transaction>2023/02/22 19:22:45.000.827,C:\Users\mysql\Documents\Delphi\Projeto Final Devs2Blu\4 - Projeto\frontend - desktop\DevsBets_frontEnd.dproj=C:\Users\mysql\Documents\Embarcadero\Studio\Projects\Project2.dproj</Transaction>
+    <Transaction>2023/02/22 19:59:38.000.758,=C:\Users\mysql\Documents\Delphi\Projeto Final Devs2Blu\4 - Projeto\frontend - desktop\model\views\UfrmLogin.pas</Transaction>
+    <Transaction>2023/02/22 20:01:20.000.465,=C:\Users\mysql\Documents\Delphi\Projeto Final Devs2Blu\4 - Projeto\frontend - desktop\model\views\UfrmLoginRegistry.pas</Transaction>
+    <Transaction>2023/02/22 20:21:58.000.058,=C:\Users\mysql\Documents\Delphi\Projeto Final Devs2Blu\4 - Projeto\frontend - desktop\model\views\UfrmLoginAuthentication.pas</Transaction>
+    <Transaction>2023/02/22 21:00:14.000.524,C:\Users\mysql\Documents\Delphi\Projeto Final Devs2Blu\4 - Projeto\frontend - desktop\model\views\UfrmLoginRegistry.pas=C:\Users\mysql\Documents\Delphi\Projeto Final Devs2Blu\4 - Projeto\frontend - desktop\model\views\UfrmLogin.Registry.pas</Transaction>
+    <Transaction>2023/02/22 21:00:14.000.524,C:\Users\mysql\Documents\Delphi\Projeto Final Devs2Blu\4 - Projeto\frontend - desktop\model\views\UfrmLoginRegistry.fmx=C:\Users\mysql\Documents\Delphi\Projeto Final Devs2Blu\4 - Projeto\frontend - desktop\model\views\UfrmLogin.Registry.fmx</Transaction>
+    <Transaction>2023/02/22 21:00:20.000.113,C:\Users\mysql\Documents\Delphi\Projeto Final Devs2Blu\4 - Projeto\frontend - desktop\model\views\UfrmLoginAuthentication.pas=C:\Users\mysql\Documents\Delphi\Projeto Final Devs2Blu\4 - Projeto\frontend - desktop\model\views\UfrmLogin.Authentication.pas</Transaction>
+    <Transaction>2023/02/22 21:00:20.000.113,C:\Users\mysql\Documents\Delphi\Projeto Final Devs2Blu\4 - Projeto\frontend - desktop\model\views\UfrmLoginAuthentication.fmx=C:\Users\mysql\Documents\Delphi\Projeto Final Devs2Blu\4 - Projeto\frontend - desktop\model\views\UfrmLogin.Authentication.fmx</Transaction>
+    <Transaction>2023/02/22 21:28:27.405,=C:\Users\mysql\Documents\Delphi\Projeto Final Devs2Blu\4 - Projeto\backend\model\entities\UEntity.Bets.pas</Transaction>
+    <Transaction>2023/02/22 21:28:27.465,=C:\Users\mysql\Documents\Delphi\Projeto Final Devs2Blu\4 - Projeto\backend\model\entities\UEntity.Logins.pas</Transaction>
+    <Transaction>2023/02/22 21:28:27.554,=C:\Users\mysql\Documents\Delphi\Projeto Final Devs2Blu\4 - Projeto\backend\model\entities\UEntity.Matchs.pas</Transaction>
+    <Transaction>2023/02/22 21:28:27.604,=C:\Users\mysql\Documents\Delphi\Projeto Final Devs2Blu\4 - Projeto\backend\model\entities\UEntity.Teams.pas</Transaction>
+    <Transaction>2023/02/22 21:28:29.634,=C:\Users\mysql\Documents\Delphi\Projeto Final Devs2Blu\4 - Projeto\backend\model\entities\UEntity.Users.pas</Transaction>
+  </Transactions>
+	<ActiveMobileDevice>
+		<NoProfile iOSSimulator="iPhone5"/>
+	</ActiveMobileDevice>
+</BorlandProject>
